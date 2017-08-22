@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7bu5wIZTEee5cZ8RJH6fAw" type="UseCase" name="Use-Case" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_EhinsIZUEee5cZ8RJH6fAw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EhxRMIZUEee5cZ8RJH6fAw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EhxRMYZUEee5cZ8RJH6fAw" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ehx4QIZUEee5cZ8RJH6fAw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Ehx4QYZUEee5cZ8RJH6fAw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ehx4QoZUEee5cZ8RJH6fAw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Ehx4Q4ZUEee5cZ8RJH6fAw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ehx4RIZUEee5cZ8RJH6fAw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EhyfUIZUEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Negozio%20online%20CD-DVD.uml#_EhN3kIZUEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EhinsYZUEee5cZ8RJH6fAw" x="60" y="140"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PK5zEIZUEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PK6aIIZUEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PK7BMIZUEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PK7BMYZUEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PK-EgIZUEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PK-EgYZUEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PK-EgoZUEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PK-Eg4ZUEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_PK0TgIZUEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PK5zEYZUEee5cZ8RJH6fAw" x="180" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_bdg0MIZUEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_bdhbQIZUEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bdhbQYZUEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bdiCUIZUEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_bdiCUYZUEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_bdiCUoZUEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_bdiCU4ZUEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bdiCVIZUEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_bdeX8IZUEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bdg0MYZUEee5cZ8RJH6fAw" x="420" y="40" width="181"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_oE06AIZUEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oE1hEIZUEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oE1hEYZUEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oE1hEoZUEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_oE2IIIZUEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_oE2IIYZUEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_oE2IIoZUEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oE2II4ZUEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_oEzE0IZUEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oE06AYZUEee5cZ8RJH6fAw" x="180" y="260"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0a1NYIZUEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0a10cIZUEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0a10cYZUEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0a10coZUEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0a10c4ZUEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0a10dIZUEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0a10dYZUEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0a10doZUEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_0ayxIIZUEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0a1NYYZUEee5cZ8RJH6fAw" x="420" y="120"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_3vQykIZUEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3vRZoIZUEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_3vRZoYZUEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3vRZooZUEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_3vRZo4ZUEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_3vRZpIZUEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_3vRZpYZUEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3vRZpoZUEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_3vOWUIZUEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3vQykYZUEee5cZ8RJH6fAw" x="400" y="200" width="221"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ATy_cIZVEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ATzmgIZVEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AT0NkIZVEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AT0NkYZVEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_AT0NkoZVEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AT0Nk4ZVEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AT0NlIZVEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AT0NlYZVEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_ATxKQIZVEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATy_cYZVEee5cZ8RJH6fAw" x="400" y="280" width="219"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_D1aFAIZVEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_D1asEIZVEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_D1asEYZVEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_D1asEoZVEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_D1bTIIZVEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_D1bTIYZVEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_D1bTIoZVEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1bTI4ZVEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_D1YP0IZVEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1aFAYZVEee5cZ8RJH6fAw" x="420" y="360"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4NWnUIZVEee5cZ8RJH6fAw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4NXOYIZVEee5cZ8RJH6fAw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4NXOYYZVEee5cZ8RJH6fAw" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4NXOYoZVEee5cZ8RJH6fAw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4NXOY4ZVEee5cZ8RJH6fAw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4NX1cIZVEee5cZ8RJH6fAw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4NX1cYZVEee5cZ8RJH6fAw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4NX1coZVEee5cZ8RJH6fAw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4NX1c4ZVEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Negozio%20online%20CD-DVD.uml#_4NTkAIZVEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4NWnUYZVEee5cZ8RJH6fAw" x="56" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_-UdIcIZVEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-UdvgIZVEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-UdvgYZVEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-UdvgoZVEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_-Udvg4ZVEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-UdvhIZVEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-UdvhYZVEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-UdvhoZVEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_-UZeEIZVEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-UdIcYZVEee5cZ8RJH6fAw" x="160" y="720"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CJan0IZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CJan0oZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CJan04ZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CJan1IZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CJan1YZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CJan1oZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CJan14ZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CJan2IZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_CJYLkIZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CJan0YZWEee5cZ8RJH6fAw" x="160" y="840"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_J0MiMIZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_J0NJQIZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_J0NJQYZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J0NJQoZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_J0NJQ4ZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_J0NJRIZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_J0NwUIZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J0NwUYZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_J0KF8IZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J0MiMYZWEee5cZ8RJH6fAw" x="340" y="780" width="161"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_QvHs8IZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QvIUAIZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QvIUAYZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QvIUAoZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QvIUA4ZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QvIUBIZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QvIUBYZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QvIUBoZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_QvF3wIZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QvHs8YZWEee5cZ8RJH6fAw" x="360" y="700"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_W18hQIZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_W19IUIZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_W19IUYZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_W19IUoZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_W19IU4ZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_W19IVIZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_W19IVYZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W19IVoZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_W16FAIZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W18hQYZWEee5cZ8RJH6fAw" x="580" y="660"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_cQSqEIZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cQTRIIZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_cQTRIYZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cQTRIoZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_cQTRI4ZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_cQTRJIZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_cQTRJYZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTRJoZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_cQQ04IZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQSqEYZWEee5cZ8RJH6fAw" x="580" y="840"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_jQldAIZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jQmEEIZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jQmEEYZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jQmEEoZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jQmEE4ZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jQmEFIZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jQmEFYZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQmEFoZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_jQjn0IZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQldAYZWEee5cZ8RJH6fAw" x="160" y="960"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_p7--AIZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_p7--AoZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_p7_lEIZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_p7_lEYZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_p7_lEoZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_p7_lE4ZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_p7_lFIZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7_lFYZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_p78hwIZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7--AYZWEee5cZ8RJH6fAw" x="800" y="840"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_zcqqEIZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zcrRIIZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zcrRIYZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zcrRIoZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zcr4MIZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zcr4MYZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zcr4MoZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zcr4M4ZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_zcoN0IZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zcqqEYZWEee5cZ8RJH6fAw" x="580" y="940" width="170"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_2rSiMIZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2rTJQIZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2rTJQYZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2rTJQoZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2rTJQ4ZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2rTJRIZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2rTJRYZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2rTJRoZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_2rPe4IZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2rSiMYZWEee5cZ8RJH6fAw" x="800" y="940" width="201"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_5FZ0MIZWEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FabQIZWEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FabQYZWEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5FabQoZWEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_5FbCUIZWEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5FbCUYZWEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5FbCUoZWEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5FbCU4ZWEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_5FWw4IZWEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5FZ0MYZWEee5cZ8RJH6fAw" x="1060" y="940" width="163"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_DZPbgIZXEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DZPbgoZXEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_DZPbg4ZXEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_DZQCkIZXEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DZQCkYZXEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DZQCkoZXEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DZQCk4ZXEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DZQClIZXEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_DZM_QIZXEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DZPbgYZXEee5cZ8RJH6fAw" x="600" y="1100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_KwEfIIZXEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KwFGMIZXEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KwFGMYZXEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KwFGMoZXEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KwFGM4ZXEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KwFGNIZXEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KwFGNYZXEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KwFGNoZXEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_KwBb0IZXEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KwEfIYZXEee5cZ8RJH6fAw" x="821" y="1100" width="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_L9RSEIZXEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_L9RSEoZXEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_L9RSE4ZXEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_L9RSFIZXEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_L9R5IIZXEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_L9R5IYZXEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_L9R5IoZXEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L9R5I4ZXEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_L9OOwIZXEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L9RSEYZXEee5cZ8RJH6fAw" x="1060" y="1100" width="162"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_a7lrgIZXEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_a7mSkIZXEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_a7mSkYZXEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_a7mSkoZXEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_a7mSk4ZXEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_a7mSlIZXEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_a7mSlYZXEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7mSloZXEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_a7jPQIZXEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7lrgYZXEee5cZ8RJH6fAw" x="360" y="620"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_bvQSMIZZEee5cZ8RJH6fAw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_bvQSMoZZEee5cZ8RJH6fAw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bvQSM4ZZEee5cZ8RJH6fAw" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bvQ5QIZZEee5cZ8RJH6fAw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bvQ5QYZZEee5cZ8RJH6fAw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bvQ5QoZZEee5cZ8RJH6fAw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bvQ5Q4ZZEee5cZ8RJH6fAw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bvQ5RIZZEee5cZ8RJH6fAw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bvQ5RYZZEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Negozio%20online%20CD-DVD.uml#_bvMn0IZZEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bvQSMYZZEee5cZ8RJH6fAw" x="40" y="1380"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_hFzgIIZZEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hF0HMIZZEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hF0HMYZZEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hF0HMoZZEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hF0HM4ZZEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hF0HNIZZEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hF0HNYZZEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hF0HNoZZEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_hFxD4IZZEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hFzgIYZZEee5cZ8RJH6fAw" x="260" y="1380"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_j6dZEIZZEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_j6eAIIZZEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_j6eAIYZZEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_j6eAIoZZEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_j6eAI4ZZEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_j6eAJIZZEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_j6eAJYZZEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j6eAJoZZEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_j6bj4IZZEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j6dZEYZZEee5cZ8RJH6fAw" x="540" y="1380"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_m-TkkIZZEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_m-TkkoZZEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_m-Tkk4ZZEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_m-TklIZZEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_m-ULoIZZEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_m-ULoYZZEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_m-ULooZZEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m-ULo4ZZEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_m-RIUIZZEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m-TkkYZZEee5cZ8RJH6fAw" x="240" y="1480" width="181"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_s3DgoIZZEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_s3EHsIZZEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_s3EHsYZZEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_s3EHsoZZEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_s3EHs4ZZEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_s3EHtIZZEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_s3EHtYZZEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3EHtoZZEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_s3BEYIZZEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3DgoYZZEee5cZ8RJH6fAw" x="260" y="1620"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_unypAIZaEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_unzQEIZaEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_unzQEYZaEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_unzQEoZaEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_unz3IIZaEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_unz3IYZaEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_unz3IoZaEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_unz3I4ZaEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_unwMwIZaEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_unypAYZaEee5cZ8RJH6fAw" x="260" y="1740"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HLqAYIZbEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HLqAYoZbEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HLqAY4ZbEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HLqAZIZbEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HLqncIZbEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_HLqncYZbEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_HLqncoZbEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HLqnc4ZbEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_HLnkIIZbEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HLqAYYZbEee5cZ8RJH6fAw" x="500" y="1740"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HCr1IIZcEee5cZ8RJH6fAw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HCscMIZcEee5cZ8RJH6fAw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HCscMYZcEee5cZ8RJH6fAw" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HCscMoZcEee5cZ8RJH6fAw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HCscM4ZcEee5cZ8RJH6fAw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HCscNIZcEee5cZ8RJH6fAw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HCtDQIZcEee5cZ8RJH6fAw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HCtDQYZcEee5cZ8RJH6fAw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HCtDQoZcEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Negozio%20online%20CD-DVD.uml#_HCpY4IZcEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HCr1IYZcEee5cZ8RJH6fAw" x="80" y="2200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_KIrVsIZcEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KIr8wIZcEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KIr8wYZcEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KIr8woZcEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KIr8w4ZcEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KIr8xIZcEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KIr8xYZcEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KIr8xoZcEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_KIo5cIZcEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KIrVsYZcEee5cZ8RJH6fAw" x="260" y="2120"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_NRp40IZcEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NRqf4IZcEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_NRqf4YZcEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NRqf4oZcEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_NRqf44ZcEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NRqf5IZcEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NRqf5YZcEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NRqf5oZcEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_NRm1gIZcEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NRp40YZcEee5cZ8RJH6fAw" x="540" y="2100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Ol_OgIZcEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ol_1kIZcEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ol_1kYZcEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Ol_1koZcEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Ol_1k4ZcEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Ol_1lIZcEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Ol_1lYZcEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ol_1loZcEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_Ol-AYIZcEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ol_OgYZcEee5cZ8RJH6fAw" x="540" y="2200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_QyxPIIZcEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Qyx2MIZcEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Qyx2MYZcEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Qyx2MoZcEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Qyx2M4ZcEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Qyx2NIZcEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Qyx2NYZcEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qyx2NoZcEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_QyvZ8IZcEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QyxPIYZcEee5cZ8RJH6fAw" x="260" y="2260"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_WqVfcIZcEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WqWGgIZcEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WqWGgYZcEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WqWGgoZcEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_WqWGg4ZcEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WqWGhIZcEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WqWGhYZcEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WqWGhoZcEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_WqTqQIZcEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WqVfcYZcEee5cZ8RJH6fAw" x="260" y="2380"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_nLpVoIZcEee5cZ8RJH6fAw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nLp8sIZcEee5cZ8RJH6fAw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nLp8sYZcEee5cZ8RJH6fAw" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nLp8soZcEee5cZ8RJH6fAw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nLp8s4ZcEee5cZ8RJH6fAw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nLp8tIZcEee5cZ8RJH6fAw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nLp8tYZcEee5cZ8RJH6fAw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nLp8toZcEee5cZ8RJH6fAw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nLqjwIZcEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Negozio%20online%20CD-DVD.uml#_nLngcIZcEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nLpVoYZcEee5cZ8RJH6fAw" x="80" y="2520"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_vU8_EIZcEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vU9mIIZcEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vU9mIYZcEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vU9mIoZcEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vU9mI4ZcEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vU9mJIZcEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vU9mJYZcEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vU9mJoZcEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_vU7J4IZcEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vU8_EYZcEee5cZ8RJH6fAw" x="260" y="2540"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_yIF1EIZcEee5cZ8RJH6fAw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yIF1EoZcEee5cZ8RJH6fAw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yIF1E4ZcEee5cZ8RJH6fAw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yIGcIIZcEee5cZ8RJH6fAw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yIGcIYZcEee5cZ8RJH6fAw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yIGcIoZcEee5cZ8RJH6fAw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yIGcI4ZcEee5cZ8RJH6fAw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yIGcJIZcEee5cZ8RJH6fAw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Negozio%20online%20CD-DVD.uml#_yIEm8IZcEee5cZ8RJH6fAw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yIF1EYZcEee5cZ8RJH6fAw" x="580" y="2540"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_7bu5wYZTEee5cZ8RJH6fAw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_7bu5woZTEee5cZ8RJH6fAw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_7bu5w4ZTEee5cZ8RJH6fAw" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="Negozio%20online%20CD-DVD.uml#_zzFGUIZTEee5cZ8RJH6fAw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Negozio%20online%20CD-DVD.uml#_zzFGUIZTEee5cZ8RJH6fAw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_U2OXIIZUEee5cZ8RJH6fAw" type="Association_Edge" source="_EhinsIZUEee5cZ8RJH6fAw" target="_PK5zEIZUEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_U2PlQIZUEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U2PlQYZUEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_U2QMUIZUEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U2QMUYZUEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_U2QMUoZUEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U2QMU4ZUEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_U2QMVIZUEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U2QMVYZUEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_U2QzYIZUEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U2QzYYZUEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_U2QzYoZUEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U2QzY4ZUEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_U2OXIYZUEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_U1y5UIZUEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U2OXIoZUEee5cZ8RJH6fAw" points="[80, 140, -643984, -643984]$[184, 80, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U3x2UIZUEee5cZ8RJH6fAw" id="(0.6666666666666666,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U3ydYIZUEee5cZ8RJH6fAw" id="(0.02857142857142857,0.6666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kFPfAIZUEee5cZ8RJH6fAw" type="Include_Edge" source="_PK5zEIZUEee5cZ8RJH6fAw" target="_bdg0MIZUEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kFQGEIZUEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kFQGEYZUEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kFQGEoZUEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kFQGE4ZUEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kFPfAYZUEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_kFD40IZUEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kFPfAoZUEee5cZ8RJH6fAw" points="[315, 60, -643984, -643984]$[440, 50, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kF0GwIZUEee5cZ8RJH6fAw" id="(0.9642857142857143,0.3333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kF0GwYZUEee5cZ8RJH6fAw" id="(0.0,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_rcDUgIZUEee5cZ8RJH6fAw" type="Association_Edge" source="_EhinsIZUEee5cZ8RJH6fAw" target="_oE06AIZUEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rcDUg4ZUEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rcDUhIZUEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rcDUhYZUEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rcD7kIZUEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rcD7kYZUEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rcD7koZUEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rcD7k4ZUEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rcD7lIZUEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rcD7lYZUEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rcD7loZUEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rcD7l4ZUEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rcD7mIZUEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_rcDUgYZUEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_rb-cAIZUEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rcDUgoZUEee5cZ8RJH6fAw" points="[80, 190, -643984, -643984]$[180, 290, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rcuC4IZUEee5cZ8RJH6fAw" id="(0.6666666666666666,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rcuC4YZUEee5cZ8RJH6fAw" id="(0.0,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MsokYIZVEee5cZ8RJH6fAw" type="Generalization_Edge" source="_0a1NYIZUEee5cZ8RJH6fAw" target="_oE06AIZUEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MsokY4ZVEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MsokZIZVEee5cZ8RJH6fAw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MsokYYZVEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#_Msah8IZVEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MsokYoZVEee5cZ8RJH6fAw" points="[460, 177, -643984, -643984]$[300, 269, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MtT50IZVEee5cZ8RJH6fAw" id="(0.2857142857142857,0.95)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MtT50YZVEee5cZ8RJH6fAw" id="(0.8571428571428571,0.15)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_NY2KIIZVEee5cZ8RJH6fAw" type="Generalization_Edge" source="_3vQykIZUEee5cZ8RJH6fAw" target="_oE06AIZUEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NY2xMIZVEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_R79I8IZVEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NY2xMYZVEee5cZ8RJH6fAw" x="-1" y="38"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NY2KIYZVEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#_NYfk0IZVEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NY2KIoZVEee5cZ8RJH6fAw" points="[460, 258, -643984, -643984]$[300, 310, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NZlJ8IZVEee5cZ8RJH6fAw" id="(0.36199095022624433,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NZlxAIZVEee5cZ8RJH6fAw" id="(1.0,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_QGe1EIZVEee5cZ8RJH6fAw" type="Generalization_Edge" source="_ATy_cIZVEee5cZ8RJH6fAw" target="_oE06AIZUEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QGfcIIZVEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SQcLMIZVEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QGfcIYZVEee5cZ8RJH6fAw" x="-1" y="38"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QGe1EYZVEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#_QGQLkIZVEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QGe1EoZVEee5cZ8RJH6fAw" points="[440, 336, -643984, -643984]$[315, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QHDc0IZVEee5cZ8RJH6fAw" id="(0.273972602739726,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QHDc0YZVEee5cZ8RJH6fAw" id="(1.0,0.6666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_QxHtgIZVEee5cZ8RJH6fAw" type="Generalization_Edge" source="_D1aFAIZVEee5cZ8RJH6fAw" target="_oE06AIZUEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QxIUkIZVEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SfsvMIZVEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QxIUkYZVEee5cZ8RJH6fAw" x="-1" y="38"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QxHtgYZVEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#_Qw4c8IZVEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QxHtgoZVEee5cZ8RJH6fAw" points="[440, 369, -643984, -643984]$[300, 310, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QxuKcIZVEee5cZ8RJH6fAw" id="(0.14285714285714285,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QxuKcYZVEee5cZ8RJH6fAw" id="(0.8571428571428571,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HOnnEIZWEee5cZ8RJH6fAw" type="Association_Edge" source="_-UdIcIZVEee5cZ8RJH6fAw" target="_4NWnUIZVEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HOnnE4ZWEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hobW8IZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HOoOIIZWEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HOoOIYZWEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ho7GMIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HOoOIoZWEee5cZ8RJH6fAw" x="1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HOoOI4ZWEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HOoOJIZWEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HOoOJYZWEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HOoOJoZWEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HOoOJ4ZWEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HOoOKIZWEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HOoOKYZWEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HOoOKoZWEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HOnnEYZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_HOjVoIZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HOnnEoZWEee5cZ8RJH6fAw" points="[164, 650, -643984, -643984]$[80, 710, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HPeisIZWEee5cZ8RJH6fAw" id="(0.02857142857142857,0.3333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HPeisYZWEee5cZ8RJH6fAw" id="(0.8,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_H-HKUIZWEee5cZ8RJH6fAw" type="Association_Edge" source="_CJan0IZWEee5cZ8RJH6fAw" target="_4NWnUIZVEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-HxYIZWEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hfUeQIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-HxYYZWEee5cZ8RJH6fAw" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-HxYoZWEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hf8wYIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-HxY4ZWEee5cZ8RJH6fAw" x="-1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-HxZIZWEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-HxZYZWEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-HxZoZWEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-HxZ4ZWEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-HxaIZWEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-HxaYZWEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-IYcIZWEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-IYcYZWEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_H-HKUYZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_H-EHAIZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_H-HKUoZWEee5cZ8RJH6fAw" points="[164, 770, -643984, -643984]$[86, 730, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H-zt4IZWEee5cZ8RJH6fAw" id="(0.02857142857142857,0.3333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H-zt4YZWEee5cZ8RJH6fAw" id="(1.0,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_NJRnoIZWEee5cZ8RJH6fAw" type="Generalization_Edge" source="_J0MiMIZWEee5cZ8RJH6fAw" target="_CJan0IZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NJSOsIZWEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hhqnoIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NJSOsYZWEee5cZ8RJH6fAw" x="2" y="37"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NJRnoYZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#_NI2J0IZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NJRnooZWEee5cZ8RJH6fAw" points="[340, 720, -643984, -643984]$[295, 770, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NKOC0IZWEee5cZ8RJH6fAw" id="(0.0,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NKOC0YZWEee5cZ8RJH6fAw" id="(0.9642857142857143,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_OYpk0IZWEee5cZ8RJH6fAw" type="Include_Edge" source="_-UdIcIZVEee5cZ8RJH6fAw" target="_J0MiMIZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OYqL4IZWEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hlOR8IZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OYqL4YZWEee5cZ8RJH6fAw" x="1" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OYqL4oZWEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hltaIIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OYqL44ZWEee5cZ8RJH6fAw" x="1" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OYpk0YZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_OYUNoIZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OYpk0oZWEee5cZ8RJH6fAw" points="[280, 680, -643984, -643984]$[344, 710, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OZTsIIZWEee5cZ8RJH6fAw" id="(0.8571428571428571,0.8333333333333334)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OZTsIYZWEee5cZ8RJH6fAw" id="(0.024844720496894408,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_SwQeQIZWEee5cZ8RJH6fAw" type="Include_Edge" source="_-UdIcIZVEee5cZ8RJH6fAw" target="_QvHs8IZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SwQeQ4ZWEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UphtAIZWEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SwQeRIZWEee5cZ8RJH6fAw" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_SwQeRYZWEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Up6ukIZWEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SwQeRoZWEee5cZ8RJH6fAw" x="1" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_SwQeQYZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_Sv8VMIZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SwQeQoZWEee5cZ8RJH6fAw" points="[280, 680, -643984, -643984]$[560, 659, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Sw_eEIZWEee5cZ8RJH6fAw" id="(1.0,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Sw_eEYZWEee5cZ8RJH6fAw" id="(0.14285714285714285,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZnO9IIZWEee5cZ8RJH6fAw" type="Include_Edge" source="_QvHs8IZWEee5cZ8RJH6fAw" target="_W18hQIZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZnPkMIZWEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hnaqUIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZnPkMYZWEee5cZ8RJH6fAw" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZnPkMoZWEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hn06AIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZnPkM4ZWEee5cZ8RJH6fAw" x="1" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZnO9IYZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_Zm6NAIZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZnO9IoZWEee5cZ8RJH6fAw" points="[495, 630, -643984, -643984]$[584, 590, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zn_yIIZWEee5cZ8RJH6fAw" id="(0.9642857142857143,0.3333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zn_yIYZWEee5cZ8RJH6fAw" id="(0.024691358024691357,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fiezkIZWEee5cZ8RJH6fAw" type="Include_Edge" source="_QvHs8IZWEee5cZ8RJH6fAw" target="_cQSqEIZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fiezk4ZWEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hi0eMIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fiezlIZWEee5cZ8RJH6fAw" x="-2" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fiezlYZWEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hjWCoIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fiezloZWEee5cZ8RJH6fAw" x="1" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fiezkYZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_fiJcYIZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fiezkoZWEee5cZ8RJH6fAw" points="[495, 650, -643984, -643984]$[560, 759, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fjSE0IZWEee5cZ8RJH6fAw" id="(1.0,0.6666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fjSE0YZWEee5cZ8RJH6fAw" id="(0.14285714285714285,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_h4pZsIZWEee5cZ8RJH6fAw" type="Include_Edge" source="_CJan0IZWEee5cZ8RJH6fAw" target="_cQSqEIZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_h4pZs4ZWEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hgbRgIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_h4pZtIZWEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_h4qAwIZWEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hhFY0IZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_h4qAwYZWEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_h4pZsYZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_h4Oi8IZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h4pZsoZWEee5cZ8RJH6fAw" points="[295, 790, -643984, -643984]$[544, 790, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h5bc0IZWEee5cZ8RJH6fAw" id="(1.0,0.6666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h5bc0YZWEee5cZ8RJH6fAw" id="(0.0,0.6666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_oMpuYIZWEee5cZ8RJH6fAw" type="Generalization_Edge" source="_jQldAIZWEee5cZ8RJH6fAw" target="_CJan0IZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oMqVcoZWEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hiTg0IZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oMqVc4ZWEee5cZ8RJH6fAw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_oMqVcIZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#_oMIJ8IZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oMqVcYZWEee5cZ8RJH6fAw" points="[230, 870, -643984, -643984]$[230, 810, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oNk7cIZWEee5cZ8RJH6fAw" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oNk7cYZWEee5cZ8RJH6fAw" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tMfsgIZWEee5cZ8RJH6fAw" type="Include_Edge" source="_QvHs8IZWEee5cZ8RJH6fAw" target="_p7--AIZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tMgTkIZWEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_tuat0IZWEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tMgTkYZWEee5cZ8RJH6fAw" x="1" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tMgTkoZWEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_tu2LoIZWEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tMgTk4ZWEee5cZ8RJH6fAw" x="1" y="-19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tMfsgYZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_tMKVUIZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tMfsgoZWEee5cZ8RJH6fAw" points="[500, 640, -643984, -643984]$[720, 832, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tNXPMIZWEee5cZ8RJH6fAw" id="(1.0,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tNXPMYZWEee5cZ8RJH6fAw" id="(0.2857142857142857,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__e2pkIZWEee5cZ8RJH6fAw" type="Generalization_Edge" source="_zcqqEIZWEee5cZ8RJH6fAw" target="_p7--AIZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="__e3QoIZWEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hkwX4IZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__e3QoYZWEee5cZ8RJH6fAw" y="39"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__e2pkYZWEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#__ecZ4IZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__e2pkoZWEee5cZ8RJH6fAw" points="[680, 850, -643984, -643984]$[740, 807, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__frwAIZWEee5cZ8RJH6fAw" id="(0.5882352941176471,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__frwAYZWEee5cZ8RJH6fAw" id="(0.2857142857142857,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_AAMcEIZXEee5cZ8RJH6fAw" type="Generalization_Edge" source="_2rSiMIZWEee5cZ8RJH6fAw" target="_p7--AIZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AAMcE4ZXEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hmKGEIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AAMcFIZXEee5cZ8RJH6fAw" x="1" y="39"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AAMcEYZXEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#___uiAIZWEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAMcEoZXEee5cZ8RJH6fAw" points="[900, 850, -643984, -643984]$[800, 807, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ABAUYIZXEee5cZ8RJH6fAw" id="(0.4975124378109453,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ABAUYYZXEee5cZ8RJH6fAw" id="(0.7142857142857143,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Aoa5sIZXEee5cZ8RJH6fAw" type="Generalization_Edge" source="_5FZ0MIZWEee5cZ8RJH6fAw" target="_p7--AIZWEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AobgwIZXEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hpef0IZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AobgwYZXEee5cZ8RJH6fAw" x="-1" y="38"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Aoa5sYZXEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#_AoDtUIZXEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Aoa5soZXEee5cZ8RJH6fAw" points="[1160, 850, -643984, -643984]$[835, 790, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ApM80IZXEee5cZ8RJH6fAw" id="(0.6134969325153374,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ApNj4IZXEee5cZ8RJH6fAw" id="(1.0,0.6666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_TMpC0IZXEee5cZ8RJH6fAw" type="Include_Edge" source="_zcqqEIZWEee5cZ8RJH6fAw" target="_DZPbgIZXEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TMpC04ZXEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hj41MIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TMpC1IZXEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TMpC1YZXEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hkUTAIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TMpC1oZXEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TMpC0YZXEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_TMQBQIZXEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TMpC0oZXEee5cZ8RJH6fAw" points="[660, 909, -643984, -643984]$[660, 1010, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TNbF8IZXEee5cZ8RJH6fAw" id="(0.47058823529411764,0.9833333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TNbF8YZXEee5cZ8RJH6fAw" id="(0.42857142857142855,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UEoawIZXEee5cZ8RJH6fAw" type="Include_Edge" source="_2rSiMIZWEee5cZ8RJH6fAw" target="_KwEfIIZXEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UEpB0IZXEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hmh5gIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UEpB0YZXEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UEpB0oZXEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hm-lcIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UEpB04ZXEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_UEoawYZXEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_UEM88IZXEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UEoawoZXEee5cZ8RJH6fAw" points="[900, 910, -643984, -643984]$[901, 1010, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UFnSMIZXEee5cZ8RJH6fAw" id="(0.4975124378109453,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UFnSMYZXEee5cZ8RJH6fAw" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UrJoMIZXEee5cZ8RJH6fAw" type="Include_Edge" source="_5FZ0MIZWEee5cZ8RJH6fAw" target="_L9RSEIZXEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UrKPQIZXEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hqFj0IZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UrKPQYZXEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UrKPQoZXEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hqksAIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UrKPQ4ZXEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_UrJoMYZXEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_Uqx0wIZXEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UrJoMoZXEee5cZ8RJH6fAw" points="[1142, 910, -643984, -643984]$[1141, 1010, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UsJtwIZXEee5cZ8RJH6fAw" id="(0.5030674846625767,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UsJtwYZXEee5cZ8RJH6fAw" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_dwwh0IZXEee5cZ8RJH6fAw" type="Include_Edge" source="_-UdIcIZVEee5cZ8RJH6fAw" target="_a7lrgIZXEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dwxI4IZXEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hq9tkIZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dwxI4YZXEee5cZ8RJH6fAw" x="1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_dwxI4oZXEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hrU58IZXEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dwxI44ZXEee5cZ8RJH6fAw" x="-1" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_dwwh0YZXEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_dwYHUIZXEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dwwh0oZXEee5cZ8RJH6fAw" points="[260, 630, -643984, -643984]$[360, 566, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxs9AIZXEee5cZ8RJH6fAw" id="(0.7142857142857143,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxs9AYZXEee5cZ8RJH6fAw" id="(0.0,0.6)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zImXMIZZEee5cZ8RJH6fAw" type="Include_Edge" source="_hFzgIIZZEee5cZ8RJH6fAw" target="_j6dZEIZZEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zImXM4ZZEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OVjbQIZbEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zImXNIZZEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zImXNYZZEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OWIqEIZbEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zImXNoZZEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zImXMYZZEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_zIHPAIZZEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zImXMoZZEee5cZ8RJH6fAw" points="[650, 1430, -643984, -643984]$[799, 1430, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zJtxgIZZEee5cZ8RJH6fAw" id="(0.9642857142857143,0.3333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zJtxgYZZEee5cZ8RJH6fAw" id="(0.02857142857142857,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1BzUgIZZEee5cZ8RJH6fAw" type="Include_Edge" source="_m-TkkIZZEee5cZ8RJH6fAw" target="_s3DgoIZZEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1BzUg4ZZEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_o4sYMIZaEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1BzUhIZZEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1BzUhYZZEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_o5Px0IZaEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1BzUhoZZEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1BzUgYZZEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_1BTlQIZZEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1BzUgoZZEee5cZ8RJH6fAw" points="[575, 1569, -643984, -643984]$[575, 1650, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1C12UIZZEee5cZ8RJH6fAw" id="(0.4419889502762431,0.9833333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1C12UYZZEee5cZ8RJH6fAw" id="(0.42857142857142855,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_29ygEIZZEee5cZ8RJH6fAw" type="Association_Edge" source="_bvQSMIZZEee5cZ8RJH6fAw" target="_hFzgIIZZEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_29ygE4ZZEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OTNR4IZbEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_29ygFIZZEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_29zHIIZZEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OTx5oIZbEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_29zHIYZZEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_29zHIoZZEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_29zHI4ZZEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_29zHJIZZEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_29zHJYZZEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_29zHJoZZEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_29zHJ4ZZEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_29zHKIZZEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_29zHKYZZEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_29ygEYZZEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_29wq4IZZEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_29ygEoZZEee5cZ8RJH6fAw" points="[325, 1430, -643984, -643984]$[519, 1430, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2-4FMIZZEee5cZ8RJH6fAw" id="(1.0,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2-4FMYZZEee5cZ8RJH6fAw" id="(0.02857142857142857,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_4QNKMIZZEee5cZ8RJH6fAw" type="Association_Edge" source="_bvQSMIZZEee5cZ8RJH6fAw" target="_m-TkkIZZEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4QNKM4ZZEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_o5ykYIZaEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4QNKNIZZEee5cZ8RJH6fAw" x="1" y="-17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4QNKNYZZEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_o6VW8IZaEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4QNKNoZZEee5cZ8RJH6fAw" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4QNKN4ZZEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4QNKOIZZEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4QNKOYZZEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4QNKOoZZEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4QNxQIZZEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4QNxQYZZEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4QNxQoZZEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4QNxQ4ZZEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4QNKMYZZEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_4QKG4IZZEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4QNKMoZZEee5cZ8RJH6fAw" points="[325, 1430, -643984, -643984]$[500, 1590, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4RTWYIZZEee5cZ8RJH6fAw" id="(1.0,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4RT9cIZZEee5cZ8RJH6fAw" id="(0.0,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_5FX3oIZZEee5cZ8RJH6fAw" type="Association_Edge" source="_bvQSMIZZEee5cZ8RJH6fAw" target="_s3DgoIZZEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FYesIZZEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_o7AsYIZaEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5FYesYZZEee5cZ8RJH6fAw" x="1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FYesoZZEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_o7kGAIZaEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5FYes4ZZEee5cZ8RJH6fAw" x="-1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FYetIZZEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5FYetYZZEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FYetoZZEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5FYet4ZZEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FYeuIZZEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5FYeuYZZEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FYeuoZZEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5FYeu4ZZEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5FX3oYZZEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_5FVbYIZZEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5FX3ooZZEee5cZ8RJH6fAw" points="[325, 1430, -643984, -643984]$[519, 1730, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5G794IZZEee5cZ8RJH6fAw" id="(1.0,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5G794YZZEee5cZ8RJH6fAw" id="(0.0,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_9QW04IZaEee5cZ8RJH6fAw" type="Association_Edge" source="_bvQSMIZZEee5cZ8RJH6fAw" target="_unypAIZaEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9QXb8IZaEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OUVTQIZbEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9QXb8YZaEee5cZ8RJH6fAw" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9QXb8oZaEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OU-McIZbEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9QXb84ZaEee5cZ8RJH6fAw" x="-1" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9QXb9IZaEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9QXb9YZaEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9QXb9oZaEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9QXb94ZaEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9QXb-IZaEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9QXb-YZaEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9QYDAIZaEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9QYDAYZaEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9QW04YZaEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_9QUYoIZaEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9QW04oZaEee5cZ8RJH6fAw" points="[325, 1430, -643984, -643984]$[515, 1800, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9RoAMIZaEee5cZ8RJH6fAw" id="(1.0,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9RoAMYZaEee5cZ8RJH6fAw" id="(0.0,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_J7RoUIZbEee5cZ8RJH6fAw" type="Include_Edge" source="_unypAIZaEee5cZ8RJH6fAw" target="_HLqAYIZbEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_J7SPYIZbEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OWsqwIZbEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J7SPYYZbEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_J7SPYoZbEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OXO2QIZbEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J7SPY4ZbEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_J7RoUYZbEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_J6ovIIZbEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J7RoUoZbEee5cZ8RJH6fAw" points="[650, 1790, -643984, -643984]$[759, 1790, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J8r9kIZbEee5cZ8RJH6fAw" id="(0.9642857142857143,0.3333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J8r9kYZbEee5cZ8RJH6fAw" id="(0.02857142857142857,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ey13oIZcEee5cZ8RJH6fAw" type="Association_Edge" source="_HCr1IIZcEee5cZ8RJH6fAw" target="_KIrVsIZcEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ey2esIZcEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ey2esYZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ey2esoZcEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ey2es4ZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ey2etIZcEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ey2etYZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ey2etoZcEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ey2et4ZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ey2euIZcEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ey2euYZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ey2euoZcEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ey2eu4ZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ey13oYZcEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_eyzbYIZcEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ey13ooZcEee5cZ8RJH6fAw" points="[80, 2220, -643984, -643984]$[260, 2148, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e0doQIZcEee5cZ8RJH6fAw" id="(0.9666666666666667,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e0ePUIZcEee5cZ8RJH6fAw" id="(0.0,0.4666666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_g-2cMIZcEee5cZ8RJH6fAw" type="Generalization_Edge" source="_NRp40IZcEee5cZ8RJH6fAw" target="_KIrVsIZcEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_g-2cM4ZcEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_6GwUwIZcEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_g-2cNIZcEee5cZ8RJH6fAw" x="-1" y="38"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_g-2cMYZcEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#_g-NjAIZcEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_g-2cMoZcEee5cZ8RJH6fAw" points="[620, 2118, -643984, -643984]$[400, 2148, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hAYtQIZcEee5cZ8RJH6fAw" id="(0.0,0.6666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hAYtQYZcEee5cZ8RJH6fAw" id="(1.0,0.4666666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_h0ecoIZcEee5cZ8RJH6fAw" type="Generalization_Edge" source="_Ol_OgIZcEee5cZ8RJH6fAw" target="_KIrVsIZcEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_h0eco4ZcEee5cZ8RJH6fAw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_6Su7QIZcEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_h0ecpIZcEee5cZ8RJH6fAw" x="-1" y="38"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_h0ecoYZcEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Generalization" href="Negozio%20online%20CD-DVD.uml#_hz2xkIZcEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h0ecooZcEee5cZ8RJH6fAw" points="[580, 2228, -643984, -643984]$[380, 2174, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h14x4IZcEee5cZ8RJH6fAw" id="(0.0,0.4666666666666667)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h14x4YZcEee5cZ8RJH6fAw" id="(0.8571428571428571,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jN0OIIZcEee5cZ8RJH6fAw" type="Association_Edge" source="_QyxPIIZcEee5cZ8RJH6fAw" target="_KIrVsIZcEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jN01MIZcEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_rc5IYIZcEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jN01MYZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jN01MoZcEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_rduO0IZcEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jN01M4ZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jN01NIZcEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jN01NYZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jN01NoZcEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jN01N4ZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jN01OIZcEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jN01OYZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jN01OoZcEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jN01O4ZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jN0OIYZcEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_jNyY8IZcEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jN0OIoZcEee5cZ8RJH6fAw" points="[340, 2332, -643984, -643984]$[340, 2180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jPUqAIZcEee5cZ8RJH6fAw" id="(0.5095541401273885,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jPUqAYZcEee5cZ8RJH6fAw" id="(0.5714285714285714,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mV9DwIZcEee5cZ8RJH6fAw" type="Association_Edge" source="_HCr1IIZcEee5cZ8RJH6fAw" target="_WqVfcIZcEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mV9q0IZcEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_q43OQIZcEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mV9q0YZcEee5cZ8RJH6fAw" x="1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mV9q0oZcEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_q5k_8IZcEee5cZ8RJH6fAw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mV9q04ZcEee5cZ8RJH6fAw" x="-1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mV9q1IZcEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mV9q1YZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mV9q1oZcEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mV9q14ZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mV9q2IZcEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mV9q2YZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mV9q2oZcEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mV9q24ZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mV9DwYZcEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_mV6ngIZcEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mV9DwoZcEee5cZ8RJH6fAw" points="[100, 2249, -643984, -643984]$[280, 2504, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mXtXQIZcEee5cZ8RJH6fAw" id="(0.6666666666666666,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mXtXQYZcEee5cZ8RJH6fAw" id="(0.14285714285714285,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uW4NQIZcEee5cZ8RJH6fAw" type="Association_Edge" source="_nLpVoIZcEee5cZ8RJH6fAw" target="_WqVfcIZcEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uW4NQ4ZcEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uW4NRIZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uW4NRYZcEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uW4NRoZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uW40UIZcEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uW40UYZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uW40UoZcEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uW40U4ZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uW40VIZcEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uW40VYZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uW40VoZcEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uW40V4ZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uW4NQYZcEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_uW1xAIZcEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uW4NQoZcEee5cZ8RJH6fAw" points="[80, 2540, -643984, -643984]$[260, 2420, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uYTwoIZcEee5cZ8RJH6fAw" id="(0.6666666666666666,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uYTwoYZcEee5cZ8RJH6fAw" id="(0.0,0.6666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0Ty3oIZcEee5cZ8RJH6fAw" type="Association_Edge" source="_nLpVoIZcEee5cZ8RJH6fAw" target="_vU8_EIZcEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0TzesIZcEee5cZ8RJH6fAw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0TzesYZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0TzesoZcEee5cZ8RJH6fAw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0Tzes4ZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0TzetIZcEee5cZ8RJH6fAw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0TzetYZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0TzetoZcEee5cZ8RJH6fAw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0Tzet4ZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0TzeuIZcEee5cZ8RJH6fAw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0TzeuYZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0TzeuoZcEee5cZ8RJH6fAw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0Tzeu4ZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0Ty3oYZcEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Association" href="Negozio%20online%20CD-DVD.uml#_0TwbYIZcEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0Ty3ooZcEee5cZ8RJH6fAw" points="[109, 2560, -643984, -643984]$[260, 2564, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0VTTgIZcEee5cZ8RJH6fAw" id="(1.0,0.8)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0VTTgYZcEee5cZ8RJH6fAw" id="(0.0,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2kg9EIZcEee5cZ8RJH6fAw" type="Include_Edge" source="_vU8_EIZcEee5cZ8RJH6fAw" target="_yIF1EIZcEee5cZ8RJH6fAw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2khkIIZcEee5cZ8RJH6fAw" type="Include_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2khkIYZcEee5cZ8RJH6fAw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2khkIoZcEee5cZ8RJH6fAw" type="Include_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2khkI4ZcEee5cZ8RJH6fAw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2kg9EYZcEee5cZ8RJH6fAw"/>
+    <element xmi:type="uml:Include" href="Negozio%20online%20CD-DVD.uml#_2j1AkIZcEee5cZ8RJH6fAw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2kg9EoZcEee5cZ8RJH6fAw" points="[404, 2580, -643984, -643984]$[580, 2576, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2mAx4IZcEee5cZ8RJH6fAw" id="(0.9863013698630136,0.3333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2mAx4YZcEee5cZ8RJH6fAw" id="(0.0,0.3333333333333333)"/>
+  </edges>
+</notation:Diagram>
