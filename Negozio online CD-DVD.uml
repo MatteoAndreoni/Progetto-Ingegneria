@@ -85,7 +85,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_KwBb0IZXEee5cZ8RJH6fAw" name="Inserimento credenziali"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_L9OOwIZXEee5cZ8RJH6fAw" name="Inserimento credenziali"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_a7jPQIZXEee5cZ8RJH6fAw" name="Scelta prodotto"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_bvMn0IZZEee5cZ8RJH6fAw" name="Utente"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_bvMn0IZZEee5cZ8RJH6fAw" name="Cliente"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_hFxD4IZZEee5cZ8RJH6fAw" name="Effettua registrazione">
     <include xmi:type="uml:Include" xmi:id="_zIHPAIZZEee5cZ8RJH6fAw" addition="_j6bj4IZZEee5cZ8RJH6fAw"/>
   </packagedElement>
@@ -93,7 +93,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_m-RIUIZZEee5cZ8RJH6fAw" name="Effettua autenticazione">
     <include xmi:type="uml:Include" xmi:id="_1BTlQIZZEee5cZ8RJH6fAw" addition="_s3BEYIZZEee5cZ8RJH6fAw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_s3BEYIZZEee5cZ8RJH6fAw" name="Visualizza catalogo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_s3BEYIZZEee5cZ8RJH6fAw" name="Visualizza catalogo speciale"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_29wq4IZZEee5cZ8RJH6fAw" memberEnd="_29xR8IZZEee5cZ8RJH6fAw _29xR8YZZEee5cZ8RJH6fAw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_29wq4YZZEee5cZ8RJH6fAw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_29wq4oZZEee5cZ8RJH6fAw" key="nature" value="UML_Nature"/>
@@ -108,16 +108,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_4QLVAIZZEee5cZ8RJH6fAw" name="effettua autenticazione" type="_m-RIUIZZEee5cZ8RJH6fAw" association="_4QKG4IZZEee5cZ8RJH6fAw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_4QLVAYZZEee5cZ8RJH6fAw" name="utente" type="_bvMn0IZZEee5cZ8RJH6fAw" association="_4QKG4IZZEee5cZ8RJH6fAw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_5FVbYIZZEee5cZ8RJH6fAw" memberEnd="_5FWCcoZZEee5cZ8RJH6fAw _5FWCc4ZZEee5cZ8RJH6fAw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5FWCcIZZEee5cZ8RJH6fAw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5FWCcYZZEee5cZ8RJH6fAw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_5FWCcoZZEee5cZ8RJH6fAw" name="visualizza catalogo" type="_s3BEYIZZEee5cZ8RJH6fAw" association="_5FVbYIZZEee5cZ8RJH6fAw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_5FWCc4ZZEee5cZ8RJH6fAw" name="utente" type="_bvMn0IZZEee5cZ8RJH6fAw" association="_5FVbYIZZEee5cZ8RJH6fAw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_unwMwIZaEee5cZ8RJH6fAw" name="Ordine esclusivo">
-    <include xmi:type="uml:Include" xmi:id="_J6ovIIZbEee5cZ8RJH6fAw" addition="_HLnkIIZbEee5cZ8RJH6fAw"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_unwMwIZaEee5cZ8RJH6fAw" name="Agevolazioni esclusive"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_9QUYoIZaEee5cZ8RJH6fAw" memberEnd="_9QVmwIZaEee5cZ8RJH6fAw _9QVmwYZaEee5cZ8RJH6fAw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9QU_sIZaEee5cZ8RJH6fAw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9QU_sYZaEee5cZ8RJH6fAw" key="nature" value="UML_Nature"/>
@@ -125,7 +116,6 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_9QVmwIZaEee5cZ8RJH6fAw" name="ordine esclusivo" type="_unwMwIZaEee5cZ8RJH6fAw" association="_9QUYoIZaEee5cZ8RJH6fAw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_9QVmwYZaEee5cZ8RJH6fAw" name="utente" type="_bvMn0IZZEee5cZ8RJH6fAw" association="_9QUYoIZaEee5cZ8RJH6fAw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_HLnkIIZbEee5cZ8RJH6fAw" name="Conferma ordine"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_HCpY4IZcEee5cZ8RJH6fAw" name="Personale"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_KIo5cIZcEee5cZ8RJH6fAw" name="Inserimento dati"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_NRm1gIZcEee5cZ8RJH6fAw" name="Inserimento dati cd">
