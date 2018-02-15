@@ -44,8 +44,7 @@ public class SaleController {
                 System.out.print(b[i] + ", ");
             }*/
             Integer prodottiComprati[] = new Integer[b.length-1];
-            Integer occorrenze[][] = new Integer[b.length][];
-            int ct1, ct2 = 0;
+
 
             for(int i=1 ; i<b.length ; i++){
                 prodottiComprati[i-1] = b[i];
@@ -53,8 +52,14 @@ public class SaleController {
 
             selectionSort(prodottiComprati);
 
-            for(int i=0 ; i<prodottiComprati.length ; i++){
 
+
+            for(int i=0 ; i<prodottiComprati.length ; i++) {
+                query = "UPDATE products SET productstocks = productstocks - 1 WHERE id = ?;";
+                stmt = conn.prepareStatement(query);
+                stmt.setObject(1, prodottiComprati[i]);
+
+                stmt.executeUpdate();
             }
 
 
