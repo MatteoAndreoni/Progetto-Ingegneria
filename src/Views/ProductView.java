@@ -22,6 +22,7 @@ public class ProductView extends JFrame{
     private JLabel description;
     private JLabel artist;
     private JLabel genre;
+    private JLabel quantity;
     private Product _product;
     private CartController _controller;
 
@@ -48,6 +49,7 @@ public class ProductView extends JFrame{
         description.setText(_product.get_description());
         artist.setText(_product.get_artist().get_name());
         genre.setText(_product.get_genre());
+        quantity.setText(_product.get_productStocks() +"");
 
         annullaButton.addActionListener(e -> frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING)));
 
