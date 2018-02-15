@@ -51,6 +51,10 @@ public class ProductView extends JFrame{
         genre.setText(_product.get_genre());
         quantity.setText(_product.get_productStocks() +"");
 
+        if(_product.get_productStocks() == 0){
+            addToCartButton.setEnabled(false);
+        }
+
         annullaButton.addActionListener(e -> frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING)));
 
         addToCartButton.addActionListener( e -> addProductToCart());
