@@ -23,9 +23,32 @@ public class CartView extends Observer {
     private TableFactory _factory;
     private Cart _cart;
     private CartController _cartController;
+    private MainView _main;
 
     int row = -1;
 
+
+    public CartView(Cart c, MainView v)
+    {
+        _cart = c;
+        _main = v;
+        this.setContentPane(this._cartPanel);
+        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+        this.addWindowListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+              // _cart.resetCart();
+            }
+        });
+
+        this.pack();
+        this.setVisible(true);
+        this.setSize(400, 400 );
+
+        setupView();
+
+    }
 
     public CartView(Cart c)
     {
@@ -36,7 +59,7 @@ public class CartView extends Observer {
         this.addWindowListener(new java.awt.event.WindowAdapter() {
             @Override
             public void windowClosing(java.awt.event.WindowEvent windowEvent) {
-              // _cart.resetCart();
+                // _cart.resetCart();
             }
         });
 
@@ -100,7 +123,7 @@ public class CartView extends Observer {
                 JOptionPane.showMessageDialog(null, "Carrello vuoto. Aggiungere dei prodotti per proseguire");
             }
             else {
-                new BuyView(_cart);
+                new BuyView(_cart, _main);
                 this.dispose();
             }
         });

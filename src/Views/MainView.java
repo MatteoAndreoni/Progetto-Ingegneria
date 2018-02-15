@@ -178,13 +178,11 @@ public class MainView extends Observer{
                 }
                 else {
                     new RegistrationView();
-                    //System.out.print("aaaaaaaaaaaaa");
-                }
+                    }
 
             }
         });
 
-        //registerButton.addActionListener( e -> JOptionPane.showMessageDialog(null, "Registrazione da fare"));//TODO registrazione
         searchButton.addActionListener(e -> onSearchButtonClicked());
     }
 
@@ -204,7 +202,7 @@ public class MainView extends Observer{
             }
             else
             {
-                new CartView(_cart);
+                new CartView(_cart, this);
             }
         }
         else
@@ -298,4 +296,5 @@ public class MainView extends Observer{
             _model.addRow(row);
         }
     }
+
 }

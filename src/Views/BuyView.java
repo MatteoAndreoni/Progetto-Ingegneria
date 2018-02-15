@@ -20,13 +20,15 @@ public class BuyView extends Observer {
     private JButton annullaButton;
     private JPanel _buyPanel;
     private Cart _cart;
+    private MainView _main;
     SaleController sc;
     Sale s;
 
-    public BuyView(Cart c){
+    public BuyView(Cart c, MainView v){
 
         s= new Sale();
         _cart = c;
+        _main = v;
         _cart.attach(this);
         this.setContentPane(this._buyPanel);
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -105,6 +107,8 @@ public class BuyView extends Observer {
         sc= new SaleController(s);
         sc.buyCart();
         JOptionPane.showMessageDialog(null, "Acquisto avvenuto con successo.");
+
+        _main.repaint();
         this.dispose();
 
     }
