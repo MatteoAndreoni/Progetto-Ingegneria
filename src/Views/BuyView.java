@@ -19,6 +19,7 @@ public class BuyView extends Observer {
     private JButton compraButton;
     private JButton annullaButton;
     private JPanel _buyPanel;
+    private JLabel _totalPrice;
     private Cart _cart;
     private MainView _main;
     SaleController sc;
@@ -69,8 +70,15 @@ public class BuyView extends Observer {
                 }
                 else
                 {
-                    float p =_cart.get_totalPrice();
-                    prezzoTotale.setText(String.format("%.2f", p+s.expressDeliveryCost));
+                    if(!_cart.get_user().get_isPremium()) {
+                        float p = _cart.get_totalPrice();
+                        prezzoTotale.setText(String.format("%.2f", p + s.expressDeliveryCost));
+                    }
+                    else{
+                        float p = _cart.get_totalPrice();
+                        prezzoTotale.setText(String.format("%.2f", p));
+                    }
+
                 }
             }
         });
@@ -79,7 +87,6 @@ public class BuyView extends Observer {
 
     public void setupView(){
 
-        pagamentoCombo.addItem("");
         pagamentoCombo.addItem("carta di credito");
         pagamentoCombo.addItem("paypal");
         pagamentoCombo.addItem("bonifico");
@@ -87,8 +94,16 @@ public class BuyView extends Observer {
         spedizioneCombo.addItem("normale");
         spedizioneCombo.addItem("espressa");
 
+        if(_cart.get_user().get_isPremium())
+            _totalPrice.setText("Totale scontato del 10%:");
+        else
+            _totalPrice.setText("Totale:");
+
         float p =_cart.get_totalPrice();
-        prezzoTotale.setText(Float.toString(p));
+        //Cart.round(p, 2);
+        String price = Float.toString(p);
+        price = String.format("%.2f", p);
+        prezzoTotale.setText(price);
 
     }
 
@@ -102,7 +117,10 @@ public class BuyView extends Observer {
         if(s.get_deliveryType().equals("normale"))
             s.set_salePrice(_cart.get_totalPrice()+s.postalDeliveryCost);
         else
-            s.set_salePrice(_cart.get_totalPrice()+s.expressDeliveryCost);
+            if(!_cart.get_user().get_isPremium())
+                s.set_salePrice(_cart.get_totalPrice()+s.expressDeliveryCost);
+            else
+                s.set_salePrice(_cart.get_totalPrice());
 
         sc= new SaleController(s);
         sc.buyCart();
@@ -117,12 +135,25 @@ public class BuyView extends Observer {
     public void update(Subject cart) {
 
         float p =_cart.get_totalPrice();
+        System.out.println("IsPremium: " + _cart.get_user().get_isPremium());
 
-        if(pagamentoCombo.getSelectedItem().equals("normale"))
-            prezzoTotale.setText(String.format("%.2f", p+s.postalDeliveryCost));
-        else
-            prezzoTotale.setText(String.format("%.2f", p+s.expressDeliveryCost));
+        if(!_cart.get_user().get_isPremium()){
+            if (pagamentoCombo.getSelectedItem().equals("normale"))
+                prezzoTotale.setText(String.format("%.2f", p + s.postalDeliveryCost));
+            else
+                prezzoTotale.setText(String.format("%.2f", p + s.expressDeliveryCost));
+        }
+        else{
+            if (pagamentoCombo.getSelectedItem().equals("normale"))
+                prezzoTotale.setText(String.format("%.2f", p + s.postalDeliveryCost));
+            else
+                prezzoTotale.setText(String.format("%.2f", p));
+        }
 
 
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }

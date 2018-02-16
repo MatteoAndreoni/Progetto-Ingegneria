@@ -2,6 +2,7 @@ package Models;
 
 import SupportClasses.Subject;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 
 public class Cart extends Subject{
@@ -28,7 +29,16 @@ public class Cart extends Subject{
 
     public void addToCart(Product p){
         _cartList.add(p);
-        _totalPrice += p.get_price();
+        if(!_user.get_isPremium()) {
+            _totalPrice += p.get_price();
+            arrotonda(_totalPrice, 2);
+        }
+        else {
+            _totalPrice += p.get_price();
+            _totalPrice *= 0.9;
+            _totalPrice = arrotonda(_totalPrice, 2);
+            System.out.println("Prezzo totale: "+ _totalPrice);
+        }
         notifyAllObservers();
     }
 
@@ -59,5 +69,9 @@ public class Cart extends Subject{
 
     public float get_totalPrice() {
         return _totalPrice;
+    }
+
+    public float arrotonda( float numero, int nCifreDecimali ){
+        return (float)(Math.round( numero * Math.pow( 10, nCifreDecimali ) )/Math.pow( 10, nCifreDecimali ));
     }
 }
