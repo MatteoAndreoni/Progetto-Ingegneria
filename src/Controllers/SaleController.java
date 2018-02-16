@@ -4,6 +4,7 @@ import Models.Cart;
 import Models.Sale;
 import SupportClasses.DBConnSingleton;
 
+import javax.swing.*;
 import java.sql.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -24,6 +25,7 @@ public class SaleController {
 
         Cart c = _sale.get_cart();
         String cartUser = c.get_user().get_username();
+        boolean isPremium = c.get_user().get_isPremium();
 
         try {
             Connection conn = DBConnSingleton.getConn();
@@ -39,10 +41,6 @@ public class SaleController {
             Array a = rs.getArray(1);
             Integer b[]= (Integer[])a.getArray();
 
-            /*System.out.println("Prodotti comprati: ");
-            for(int i=0 ; i<b.length ; i++){
-                System.out.print(b[i] + ", ");
-            }*/
             Integer prodottiComprati[] = new Integer[b.length-1];
 
 
@@ -62,26 +60,38 @@ public class SaleController {
                 stmt.executeUpdate();
             }
 
-
-
-            /*for(int i=0 ; i<prodottiComprati.length ; i++){
-                for(int j=0 ; j<prodottiComprati.length ; j++){
-                    if(prodottiComprati[j] == prodottiComprati[i])
-                        occorrenze[i]++;
-                }
-            }*/
-
             System.out.println("Prodotti comprati: ");
             for(int i=0 ; i<prodottiComprati.length ; i++){
                 System.out.print(prodottiComprati[i] + ", ");
             }
             System.out.println("");
 
-            /*System.out.println("occorrenze: ");
-            for(int i=0 ; i<occorrenze.length ; i++){
-                System.out.print(occorrenze[i] + ", ");
-            }*/
+            if(!isPremium){
+                if(c.get_totalPrice() > 250){
+                    String query2 = "SELECT COUNT(*) FROM sale WHERE username = ? AND price > 250;";
+                    stmt = conn.prepareStatement(query2);
+                    stmt.setObject(1, cartUser);
+                    ResultSet rs2 = stmt.executeQuery();
 
+                    rs2.next();
+
+                    int numAcquisti250 = rs2.getInt(1);
+
+                    System.out.println("Num. acquisti > 250: "+ numAcquisti250);
+
+                    if(numAcquisti250 == 2){
+                        //rendo l'utente premium
+                        c.get_user().set_isPremium(true);
+
+                        query2 = "UPDATE utente SET ispremium = TRUE WHERE username = ?;";
+                        stmt = conn.prepareStatement(query2);
+                        stmt.setObject(1, cartUser);
+                        stmt.executeUpdate();
+
+                        JOptionPane.showMessageDialog(null, "Complimenti, il tuo account è diventato premium!\nOra le spese di spedizione sono gratuite e il totale del carrello sarà scontato del 10%.");
+                    }
+                }
+            }
 
             String query1 = "UPDATE sale SET saledatetime = ? , price = ? , ip = ? , paymenttype = ? , deliverytype = ? where sale.username ILIKE ? AND saledatetime is null;;";
             stmt = conn.prepareStatement(query1);
@@ -93,6 +103,8 @@ public class SaleController {
 
             stmt.setObject(6,cartUser);
             stmt.executeUpdate();
+
+
 
 
 

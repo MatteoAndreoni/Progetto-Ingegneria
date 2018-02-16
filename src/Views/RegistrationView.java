@@ -43,7 +43,7 @@ public class RegistrationView extends JFrame{
         {
 
             User u;
-            u = new User(cf.getText(),username.getText(),password.getText(),nome.getText(),cognome.getText(),indirizzo.getText(),telefono.getText(),cellulare.getText(),false);
+            u = new User(cf.getText(),username.getText(),password.getText(),nome.getText(),cognome.getText(),indirizzo.getText(),telefono.getText(),cellulare.getText(),false, false);
             int res=RegistrationManager.registerUser(u);
 
             if(res == -1)

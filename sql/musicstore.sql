@@ -36,7 +36,8 @@ CREATE TABLE Utente(
 	address VARCHAR(100), 
 	telephone VARCHAR(15), 
 	cellphone VARCHAR(15),
-	isemployee BOOLEAN
+	isemployee BOOLEAN,
+	ispremium BOOLEAN DEFAULT FALSE
 );
 
 DROP TABLE IF EXISTS Sale CASCADE;

@@ -108,7 +108,7 @@ public class BuyView extends Observer {
         sc.buyCart();
         JOptionPane.showMessageDialog(null, "Acquisto avvenuto con successo.");
 
-        _main.repaint();
+        _main.onSearchButtonClicked();
         this.dispose();
 
     }

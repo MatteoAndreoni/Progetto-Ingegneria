@@ -11,12 +11,13 @@ public class User {
     private String _telephone;
     private String _cellphone;
     private boolean _isEmployee;
+    private boolean _isPremium;
 
     public User(){
 
     }
 
-    public User(String _CF, String _username, String _password, String _name, String _surname, String _address, String _telephone, String _cellphone, boolean _isEmployee) {
+    public User(String _CF, String _username, String _password, String _name, String _surname, String _address, String _telephone, String _cellphone, boolean _isEmployee, boolean _isPremium) {
         this._CF = _CF;
         this._username = _username;
         this._password = _password;
@@ -26,6 +27,7 @@ public class User {
         this._telephone = _telephone;
         this._cellphone = _cellphone;
         this._isEmployee = _isEmployee;
+        this._isPremium = _isPremium;
     }
 
     public String get_CF() {
@@ -98,5 +100,13 @@ public class User {
 
     public void set_isEmployee(boolean _isEmployee) {
         this._isEmployee = _isEmployee;
+    }
+
+    public boolean get_isPremium(){
+        return _isPremium;
+    }
+
+    public void set_isPremium(boolean _isPremium){
+        this._isPremium = _isPremium;
     }
 }
