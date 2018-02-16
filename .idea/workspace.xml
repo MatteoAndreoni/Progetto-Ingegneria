@@ -7,53 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de1472b-4462-4c20-80cd-73a28297fd65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Controllers/CartController.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Controllers/CartController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Controllers/CatalogController.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Controllers/CatalogController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Controllers/SaleController.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Controllers/SaleController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Cart.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Cart.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Catalog.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Catalog.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Musician.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Musician.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Product.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Product.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Sale.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Models/Sale.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Models/User.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Models/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/CartTableModel.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/CartTableModel.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/CatalogTableModel.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/CatalogTableModel.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/DBConnSingleton.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/DBConnSingleton.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/LoginManager.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/LoginManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/Observer.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/Observer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/RegistrationManager.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/RegistrationManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/Start.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/Start.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/Subject.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/Subject.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/TableFactory.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/SupportClasses/TableFactory.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/AggiungiView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/AggiungiView.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/BuyView$1.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/BuyView$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/BuyView$2.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/BuyView$2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/BuyView$3.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/BuyView$3.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/BuyView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/BuyView.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView$1.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView$2.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView$2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView$3.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView$3.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView$4.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView$4.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/CartView.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/EliminaView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/EliminaView.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$1.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$2.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$3.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$3.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$4.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$4.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$5.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$5.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$6.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView$6.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/MainView.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ModificaView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ModificaView.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ModifyView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ModifyView.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ProductView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ProductView.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/RegistrationView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/RegistrationView.class" />
-      <change beforePath="$PROJECT_DIR$/sql/musicstore.sql" afterPath="$PROJECT_DIR$/sql/musicstore.sql" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/SaleController.java" afterPath="$PROJECT_DIR$/src/Controllers/SaleController.java" />
-      <change beforePath="$PROJECT_DIR$/src/Models/User.java" afterPath="$PROJECT_DIR$/src/Models/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/BuyView.java" afterPath="$PROJECT_DIR$/src/Views/BuyView.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/RegistrationView.java" afterPath="$PROJECT_DIR$/src/Views/RegistrationView.java" />
+      <change beforePath="$PROJECT_DIR$/src/SupportClasses/LoginManager.java" afterPath="$PROJECT_DIR$/src/SupportClasses/LoginManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/Views/MainView.form" afterPath="$PROJECT_DIR$/src/Views/MainView.form" />
+      <change beforePath="$PROJECT_DIR$/src/Views/MainView.java" afterPath="$PROJECT_DIR$/src/Views/MainView.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaleController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SaleController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/SaleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="1800">
               <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding />
             </state>
@@ -111,15 +68,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Views/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-778">
-              <caret line="202" column="16" lean-forward="false" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
+            <state relative-caret-position="252">
+              <caret line="229" column="39" lean-forward="false" selection-start-line="229" selection-start-column="39" selection-end-line="229" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SupportClasses/LoginManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainView.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Views/MainView.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -158,16 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Views/ProductView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -198,13 +162,15 @@
         <option value="$PROJECT_DIR$/src/Controllers/CartController.java" />
         <option value="$PROJECT_DIR$/src/Views/ProductView.form" />
         <option value="$PROJECT_DIR$/src/Views/ProductView.java" />
-        <option value="$PROJECT_DIR$/src/Views/MainView.java" />
         <option value="$PROJECT_DIR$/src/Views/CartView.java" />
         <option value="$PROJECT_DIR$/src/Models/User.java" />
         <option value="$PROJECT_DIR$/sql/musicstore.sql" />
         <option value="$PROJECT_DIR$/src/Views/RegistrationView.java" />
         <option value="$PROJECT_DIR$/src/Controllers/SaleController.java" />
         <option value="$PROJECT_DIR$/src/Views/BuyView.java" />
+        <option value="$PROJECT_DIR$/src/Views/MainView.form" />
+        <option value="$PROJECT_DIR$/src/SupportClasses/LoginManager.java" />
+        <option value="$PROJECT_DIR$/src/Views/MainView.java" />
       </list>
     </option>
   </component>
@@ -277,6 +243,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
               <item name="BuyView" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="MusicStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Progetto-Ingegneria" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="MainView" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="MusicStore" type="b2602c69:ProjectViewProjectNode" />
@@ -465,13 +438,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SupportClasses/LoginManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/ProductView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -772,10 +738,36 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SupportClasses/LoginManager.java">
+    <entry file="file://$PROJECT_DIR$/src/Views/RegistrationView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="203">
+          <caret line="45" column="180" lean-forward="false" selection-start-line="45" selection-start-column="180" selection-end-line="45" selection-end-column="180" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3028">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/BuyView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="110" column="38" lean-forward="true" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/SaleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -809,47 +801,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/RegistrationView.java">
+    <entry file="file://$PROJECT_DIR$/src/Views/MainView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SupportClasses/LoginManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="45" column="180" lean-forward="false" selection-start-line="45" selection-start-column="180" selection-end-line="45" selection-end-column="180" />
+        <state relative-caret-position="230">
+          <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/MainView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-778">
-          <caret line="202" column="16" lean-forward="false" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
+        <state relative-caret-position="252">
+          <caret line="229" column="39" lean-forward="false" selection-start-line="229" selection-start-column="39" selection-end-line="229" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3028">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/BuyView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="110" column="38" lean-forward="true" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/SaleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

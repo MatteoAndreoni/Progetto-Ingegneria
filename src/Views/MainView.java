@@ -29,6 +29,7 @@ public class MainView extends Observer{
     private JTextField searchText;
     private JButton searchButton;
     private JButton registerButton;
+    private JLabel premiumAcc;
     private Catalog _catalog;
     private CatalogController _catalogController;
     private DefaultTableModel _model;
@@ -75,6 +76,9 @@ public class MainView extends Observer{
         comboBox.addItem("Genere");
         comboBox.addItem("Prezzo");
         comboBox.addItem("Nome CD/DVD");
+
+        premiumAcc.setEnabled(false);
+        premiumAcc.setVisible(false);
 
         searchButton.setFocusPainted(false);
 
@@ -221,6 +225,10 @@ public class MainView extends Observer{
         usernameText.setVisible(true);
         passwordText.setEnabled(true);
         passwordText.setVisible(true);
+        if(premiumAcc.isEnabled() == true){
+            premiumAcc.setEnabled(false);
+            premiumAcc.setVisible(false);
+        }
 
 
     }
@@ -234,6 +242,10 @@ public class MainView extends Observer{
             if(!_user.get_isEmployee()) {
                 _cart = new Cart(_user);
                 _cartController = new CartController(_cart);
+                if(_user.get_isPremium()){
+                    premiumAcc.setEnabled(true);
+                    premiumAcc.setVisible(true);
+                }
                 JOptionPane.showMessageDialog(null, "Loggato come Cliente");
             }
             else

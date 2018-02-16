@@ -35,7 +35,17 @@
               <maximumSize width="400" height="2147483647"/>
             </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="eed12" class="javax.swing.JLabel" binding="premiumAcc">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <enabled value="true"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Account PREMIUM"/>
+                </properties>
+              </component>
+            </children>
           </grid>
           <component id="1eab3" class="javax.swing.JFormattedTextField" binding="usernameText">
             <constraints/>

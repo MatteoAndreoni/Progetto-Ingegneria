@@ -34,6 +34,7 @@ public class LoginManager {
                 _user.set_telephone(rs.getString(7));
                 _user.set_cellphone(rs.getString(8));
                 _user.set_isEmployee(rs.getBoolean(9));
+                _user.set_isPremium((rs.getBoolean(10)));
 
                 flag = true;
             }
