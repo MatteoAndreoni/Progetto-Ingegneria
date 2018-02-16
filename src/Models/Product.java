@@ -28,6 +28,11 @@ public class Product extends Subject{
 
     }
 
+    public Product(int code, String title){
+        _code = code;
+        _title = title;
+    }
+
     public Product (int code, String title, ArrayList<String> trackList, String coverImage, float price, LocalDateTime firstAddedInStore, String description, Musician artist, String genre, ArrayList<Musician> involvedArtists, ArrayList<String> usedInstruments, int productStocks) {
         _code = code;
         _title = title;

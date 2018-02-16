@@ -255,6 +255,7 @@ public class MainView extends Observer{
                 imageIcon = new ImageIcon(image.getScaledInstance(50, 50, Image.SCALE_SMOOTH));
                 cartButton.setIcon(imageIcon);
                 JOptionPane.showMessageDialog(null, "Loggato come Impiegato");
+                _catalogController.emptyAlert();
             }
 
         }

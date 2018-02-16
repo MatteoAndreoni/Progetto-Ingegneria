@@ -197,5 +197,41 @@ public class CatalogController
             e.printStackTrace();
         }
     }
+
+    public void emptyAlert(){
+        //controllo il database per vedere se ci sono prodotti con meno di due rimanenze in magazzino
+        String query = "SELECT * FROM products WHERE productstocks < 2;";
+
+        try{
+            PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(query);
+            ResultSet rs = pst.executeQuery();
+            ArrayList<Product> almostEmptyProducts = new ArrayList();
+
+            while(rs.next()){
+                //
+                Product p = new Product(0, "");
+                p.set_code(rs.getInt("id"));
+                p.set_title(rs.getString("title"));
+                almostEmptyProducts.add(p);
+                //almostEmptyProducts.add(rs.getObject("id"));
+            }
+            String prodottiFiniti = "";
+
+            System.out.println("Almost empty products: ");
+            for(int i=0; i<almostEmptyProducts.size(); i++){
+                System.out.println(almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title());
+                prodottiFiniti = prodottiFiniti + almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title() + "\n";
+            }
+
+            JOptionPane.showMessageDialog(null,"I seguenti prodotti hanno zero o una sola rimanenza in magazzino:\n\n"+prodottiFiniti);
+
+
+
+
+        }
+        catch(SQLException e){
+            e.printStackTrace();
+        }
+    }
 }
 

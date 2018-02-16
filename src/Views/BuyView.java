@@ -65,18 +65,18 @@ public class BuyView extends Observer {
                 if(spedizioneCombo.getSelectedItem().equals("normale")){
 
                     float p =_cart.get_totalPrice();
-                    prezzoTotale.setText(String.format("%.2f", p+s.postalDeliveryCost));
+                    prezzoTotale.setText(Float.toString(p+s.postalDeliveryCost));
 
                 }
                 else
                 {
                     if(!_cart.get_user().get_isPremium()) {
                         float p = _cart.get_totalPrice();
-                        prezzoTotale.setText(String.format("%.2f", p + s.expressDeliveryCost));
+                        prezzoTotale.setText(Float.toString(p + s.expressDeliveryCost));
                     }
                     else{
                         float p = _cart.get_totalPrice();
-                        prezzoTotale.setText(String.format("%.2f", p));
+                        prezzoTotale.setText(Float.toString(p));
                     }
 
                 }
@@ -100,10 +100,7 @@ public class BuyView extends Observer {
             _totalPrice.setText("Totale:");
 
         float p =_cart.get_totalPrice();
-        //Cart.round(p, 2);
-        String price = Float.toString(p);
-        price = String.format("%.2f", p);
-        prezzoTotale.setText(price);
+        prezzoTotale.setText(Float.toString(p));
 
     }
 
@@ -139,15 +136,15 @@ public class BuyView extends Observer {
 
         if(!_cart.get_user().get_isPremium()){
             if (pagamentoCombo.getSelectedItem().equals("normale"))
-                prezzoTotale.setText(String.format("%.2f", p + s.postalDeliveryCost));
+                prezzoTotale.setText(Float.toString(p + s.postalDeliveryCost));
             else
-                prezzoTotale.setText(String.format("%.2f", p + s.expressDeliveryCost));
+                prezzoTotale.setText(Float.toString(p + s.expressDeliveryCost));
         }
         else{
             if (pagamentoCombo.getSelectedItem().equals("normale"))
-                prezzoTotale.setText(String.format("%.2f", p + s.postalDeliveryCost));
+                prezzoTotale.setText(Float.toString(p + s.postalDeliveryCost));
             else
-                prezzoTotale.setText(String.format("%.2f", p));
+                prezzoTotale.setText(Float.toString(p));
         }
 
 
