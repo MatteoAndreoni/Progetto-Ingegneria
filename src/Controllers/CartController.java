@@ -44,7 +44,7 @@ public class CartController {
 
     }
 
-    private boolean isCartPresent(String user){
+    public boolean isCartPresent(String user){
         try {
             Connection conn = DBConnSingleton.getConn();
             String query = "select * from sale where sale.username ILIKE ? AND saledatetime is null;";

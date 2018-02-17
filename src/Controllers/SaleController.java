@@ -110,7 +110,7 @@ public class SaleController {
             stmt.setObject(6,cartUser);
             stmt.executeUpdate();
 
-
+            CartController.newSale(_sale.get_cart().get_user().get_username());
 
 
 

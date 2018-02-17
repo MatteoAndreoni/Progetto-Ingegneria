@@ -242,6 +242,8 @@ public class MainView extends Observer{
             if(!_user.get_isEmployee()) {
                 _cart = new Cart(_user);
                 _cartController = new CartController(_cart);
+                if(!_cartController.isCartPresent(_user.get_username()))
+                    CartController.newSale(_user.get_username());
                 if(_user.get_isPremium()){
                     premiumAcc.setEnabled(true);
                     premiumAcc.setVisible(true);
