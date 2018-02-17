@@ -32,14 +32,20 @@ public class SaleController {
 
             LocalDateTime localDate = _sale.get_saleDate();
 
-            String query = "SELECT products FROM sale WHERE saledatetime IS null";
+            String query = "SELECT products FROM sale WHERE username = ? AND saledatetime IS null";
             PreparedStatement stmt = conn.prepareStatement(query);
+            stmt.setString(1, cartUser);
             ResultSet rs = stmt.executeQuery();
 
             rs.next();
 
             Array a = rs.getArray(1);
             Integer b[]= (Integer[])a.getArray();
+
+            System.out.print("Array b: ");
+            for(int i=0 ; i<b.length ; i++){
+                System.out.print(b[i] + ", ");
+            }
 
             Integer prodottiComprati[] = new Integer[b.length-1];
 

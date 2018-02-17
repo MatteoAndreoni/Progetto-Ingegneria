@@ -47,7 +47,7 @@ CREATE TABLE Sale(
 	username VARCHAR(15) REFERENCES Utente(username) ON UPDATE CASCADE ON DELETE SET DEFAULT ,
 	products INTEGER ARRAY,
 	price NUMERIC, 
-	saledatetime TIMESTAMP with TIME ZONE , 
+	saledatetime TIMESTAMP with TIME ZONE,
 	ip VARCHAR(15), 
 	paymenttype VARCHAR(20), 
 	deliverytype VARCHAR(10)
@@ -63,18 +63,16 @@ INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Michael Jackson
 
 
 INSERT INTO Products (title,tracklist,coverimage,price,firstadded,description,artist,genre,involvedartists,usedinstruments,productstocks)
-VALUES('Prisoners 709','{"Prosopagnosia,Prisoner 709 ,La caduta di Atlante, Forever Jung, Confusianesimo, Il testo che avrei voluto scrivere,Una chiave, Ti fa stare bene, Migliora la tua memoria con un click, Larsen, Sogno di potere, La guardia, Minimoog, La finestra, Autoipnotica, Prosopagno sia"}','resources/Prisoner.png',18.99,'2017-09-15','Settimo album in studio del rapper italiano Caparezza',1,'rap rock','{"Caparezza, Max Gazzè, DMC"}','{chitarra, voce, basso, violoncello, tastiera, pianoforte, batteria, violino, viola, tromba, sassofono, trombone, corno}',100);
+VALUES('Prisoners 709','{"Prosopagnosia,Prisoner 709 ,La caduta di Atlante, Forever Jung, Confusianesimo, Il testo che avrei voluto scrivere,Una chiave, Ti fa stare bene, Migliora la tua memoria con un click, Larsen, Sogno di potere, La guardia, Minimoog, La finestra, Autoipnotica, Prosopagno sia"}','resources/Prisoner.png',18.99,'2017-09-15','Settimo album in studio del rapper italiano Caparezza',1,'rap rock','{"Caparezza, Max Gazzè, DMC"}','{chitarra, voce, basso, violoncello, tastiera, pianoforte, batteria, violino, viola, tromba, sassofono, trombone, corno}',10);
 INSERT INTO Products (title,tracklist,coverimage,price,firstadded,description,artist,genre,involvedartists,usedinstruments,productstocks)
-VALUES('Evolution','{"Caught in The Middle, Redlight, Stamina, Boxer, My Everything, Nobody Loves Me Better, Reckless, Not Coming Down, Before, Pain, Why, Boomerang, Higher Livin"}','resources/Evolution.png',17.99,'2017-09-15','Settimo album in studio della cantautrice statunitense Anastacia',2,'pop','{"Anastacia"}','{voce}',100);
+VALUES('Evolution','{"Caught in The Middle, Redlight, Stamina, Boxer, My Everything, Nobody Loves Me Better, Reckless, Not Coming Down, Before, Pain, Why, Boomerang, Higher Livin"}','resources/Evolution.png',17.99,'2017-09-15','Settimo album in studio della cantautrice statunitense Anastacia',2,'pop','{"Anastacia"}','{voce}',5);
 INSERT INTO Products (title,tracklist,coverimage,price,firstadded,description,artist,genre,involvedartists,usedinstruments,productstocks)
-VALUES('The Dark Side of the Moon','{"Breathe, On the Run, Time, The Great Gig in the Sky, Money, Us and Them, Any Colour You Like, Brain Damage, Eclipse"}','resources/Dark.png',17.99,'2016-02-01','Ottavo album in studio del gruppo musicale britannico Pink Floyd',3,'rock','{"Pink Floyd"}','{voce, chitarra, basso, pianoforte, organo, batteria, sassofono}',100);
+VALUES('The Dark Side of the Moon','{"Breathe, On the Run, Time, The Great Gig in the Sky, Money, Us and Them, Any Colour You Like, Brain Damage, Eclipse"}','resources/Dark.png',17.99,'2016-02-01','Ottavo album in studio del gruppo musicale britannico Pink Floyd',3,'rock','{"Pink Floyd"}','{voce, chitarra, basso, pianoforte, organo, batteria, sassofono}',1);
 INSERT INTO Products (title,tracklist,coverimage,price,firstadded,description,artist,genre,involvedartists,usedinstruments,productstocks)
-VALUES ('Are You Experienced', '{"Foxy Lady, Manic Depression, Red House, Can You See Me, Love or Confusion, May This Be Love, Fire, Third Stone from the Sun, Remember"}','resources/Experience.png', 16.99, '2016-02-01', 'Album di debutto della band inglese/americana The Jimi Hendrix Experience',4,'rock','{"Jimi Hendrix, Noel Redding, Mitch Mitchell"}','{voce,chitarra,pianoforte,basso,batteria,percussioni}', 100);
+VALUES ('Are You Experienced', '{"Foxy Lady, Manic Depression, Red House, Can You See Me, Love or Confusion, May This Be Love, Fire, Third Stone from the Sun, Remember"}','resources/Experience.png', 16.99, '2016-02-01', 'Album di debutto della band inglese/americana The Jimi Hendrix Experience',4,'rock','{"Jimi Hendrix, Noel Redding, Mitch Mitchell"}','{voce,chitarra,pianoforte,basso,batteria,percussioni}', 50);
 INSERT INTO Products (title,tracklist,coverimage,price,firstadded,description,artist,genre,involvedartists,usedinstruments,productstocks)
-VALUES('This is it','{"FILM DVD"}','resources/This.png',7.25,'2016-02-01','Il film documenta le prove del grande show a cui Michael stava lavorando prima della sua improvvisa scomparsa',7,'pop','{"Michael Jackson"}','{voce}',100);
+VALUES('This is it','{"FILM DVD"}','resources/This.png',7.25,'2016-02-01','Il film documenta le prove del grande show a cui Michael stava lavorando prima della sua improvvisa scomparsa',7,'pop','{"Michael Jackson"}','{voce}',15);
 
 INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('aaaaaaaaaaaaaaaa','john','a','john','jonhyllo','hello city','1234567','12345456', FALSE );
 
 INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('aaaaaaaaaaaaaaaa','admin','admin','admin','admin','hello city','1234567','12345456', TRUE );
-
-INSERT INTO Sale (username, products, price,saledatetime) VALUES ('john','{1,2}',1,'2016-06-22 22:10:25-04');
