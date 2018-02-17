@@ -144,37 +144,38 @@ public class CartController {
 
 
 
-    public void addToCart(Product p){
+    public void addToCart(Product p, int quantity){
 
         String cartUser = _cart.get_user().get_username();
 
         try {
-            Connection conn = DBConnSingleton.getConn();
-            String query = "select products from sale where sale.username ILIKE ?  AND saledatetime is null;";
-            PreparedStatement stmt = conn.prepareStatement(query);
-            stmt.setString(1,cartUser);
-            ResultSet rs = stmt.executeQuery();
+                Connection conn = DBConnSingleton.getConn();
+                String query = "select products from sale where sale.username ILIKE ?  AND saledatetime is null;";
+                PreparedStatement stmt = conn.prepareStatement(query);
+                stmt.setString(1,cartUser);
+                ResultSet rs = stmt.executeQuery();
 
-            rs.next();
+                rs.next();
 
 
-            Array a = rs.getArray(1);
-            Integer b []= (Integer[])a.getArray();
-            Integer c[] = new Integer[b.length+1];
+                Array a = rs.getArray(1);
+                Integer b []= (Integer[])a.getArray();
+                Integer c[] = new Integer[b.length+quantity];
 
-            for(int i=0;i<b.length;i++){
-                c[i]=b[i];
-            }
+                for(int i=0;i<b.length;i++){
+                    c[i]=b[i];
+                }
 
-            c[b.length]=p.get_code();
+                for(int j=b.length ; j<b.length+quantity ; j++)
+                    c[j]=p.get_code();
 
-            query = "UPDATE sale SET products = '"+conn.createArrayOf(a.getBaseTypeName(),c)+"' where sale.username ILIKE ?  AND saledatetime is null;";
-            stmt = conn.prepareStatement(query);
-            stmt.setString(1,cartUser);
-            stmt.executeUpdate();
+                query = "UPDATE sale SET products = '"+conn.createArrayOf(a.getBaseTypeName(),c)+"' where sale.username ILIKE ?  AND saledatetime is null;";
+                stmt = conn.prepareStatement(query);
+                stmt.setString(1,cartUser);
+                stmt.executeUpdate();
 
-            _cart.addToCart(p);
-
+                for(int i=0 ; i<quantity ; i++)
+                    _cart.addToCart(p);
 
         }catch (SQLException e){
             e.printStackTrace();

@@ -71,7 +71,6 @@ public class MainView extends Observer{
         cartButton.setSize(30, 100);
         cartButton.setText("");
 
-        comboBox.addItem("");
         comboBox.addItem("Artista");
         comboBox.addItem("Genere");
         comboBox.addItem("Prezzo");

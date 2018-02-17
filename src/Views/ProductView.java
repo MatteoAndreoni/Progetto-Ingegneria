@@ -22,7 +22,7 @@ public class ProductView extends JFrame{
     private JLabel description;
     private JLabel artist;
     private JLabel genre;
-    private JLabel quantity;
+    private JComboBox quantity;
     private Product _product;
     private CartController _controller;
 
@@ -49,7 +49,10 @@ public class ProductView extends JFrame{
         description.setText(_product.get_description());
         artist.setText(_product.get_artist().get_name());
         genre.setText(_product.get_genre());
-        quantity.setText(_product.get_productStocks() +"");
+
+        for(int i=1 ; i<=_product.get_productStocks() ; i++){
+            quantity.addItem(i);
+        }
 
         if(_product.get_productStocks() == 0){
             addToCartButton.setEnabled(false);
@@ -63,7 +66,8 @@ public class ProductView extends JFrame{
     public void addProductToCart()
     {
         if(_controller != null) {
-            _controller.addToCart(_product);
+            int quantita = (int)quantity.getSelectedItem();
+            _controller.addToCart(_product, quantita);
             JOptionPane.showMessageDialog(null, "Prodotto aggiunto correttamente al carrello.");
         }
         else
