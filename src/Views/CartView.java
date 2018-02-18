@@ -79,6 +79,7 @@ public class CartView extends Observer {
         _factory = new TableFactory();
 
         _model = _factory.getTableModel("CartView");
+
         _table1 = new JTable(_model)
         {
             public Class getColumnClass(int column)
@@ -138,10 +139,6 @@ public class CartView extends Observer {
             }
         });
 
-    }
-
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
     }
 
     @Override
