@@ -218,13 +218,14 @@ public class CatalogController
             String prodottiFiniti = "";
 
             System.out.println("Almost empty products: ");
-            for(int i=0; i<almostEmptyProducts.size(); i++){
-                System.out.println(almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title());
-                prodottiFiniti = prodottiFiniti + almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title() + "\n";
+            if(almostEmptyProducts.size() != 0) {
+                for (int i = 0; i < almostEmptyProducts.size(); i++) {
+                    System.out.println(almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title());
+                    prodottiFiniti = prodottiFiniti + almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title() + "\n";
+                }
+
+                JOptionPane.showMessageDialog(null, "I seguenti prodotti hanno zero o una sola rimanenza in magazzino:\n\n" + prodottiFiniti);
             }
-
-            JOptionPane.showMessageDialog(null,"I seguenti prodotti hanno zero o una sola rimanenza in magazzino:\n\n"+prodottiFiniti);
-
 
 
 

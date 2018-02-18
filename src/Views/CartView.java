@@ -87,6 +87,16 @@ public class CartView extends Observer {
             }
         };
 
+        eliminaButton.setBorderPainted(false);
+        eliminaButton.setFocusPainted(false);
+        eliminaButton.setContentAreaFilled(false);
+        eliminaButton.setOpaque(false);
+
+        compraButton.setBorderPainted(false);
+        compraButton.setFocusPainted(false);
+        compraButton.setContentAreaFilled(false);
+        compraButton.setOpaque(false);
+
         _table1.setRowHeight(60);
         _cartController = new CartController(_cart);
         _table1.setVisible(true);

@@ -49,7 +49,8 @@
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Elimina"/>
+          <icon value="Views/resources/button_elimina_blu.png"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="f9cfc" class="javax.swing.JButton" binding="annullaButton" default-binding="true">
@@ -57,7 +58,8 @@
           <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Annulla"/>
+          <icon value="Views/resources/button_annulla.png"/>
+          <text value=""/>
         </properties>
       </component>
       <hspacer id="9a452">

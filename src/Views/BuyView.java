@@ -86,6 +86,16 @@ public class BuyView extends Observer {
     }
 
     public void setupView(){
+        compraButton.setBorderPainted(false);
+        compraButton.setFocusPainted(false);
+        compraButton.setContentAreaFilled(false);
+        compraButton.setOpaque(false);
+
+        annullaButton.setBorderPainted(false);
+        annullaButton.setFocusPainted(false);
+        annullaButton.setContentAreaFilled(false);
+        annullaButton.setOpaque(false);
+
 
         pagamentoCombo.addItem("carta di credito");
         pagamentoCombo.addItem("paypal");

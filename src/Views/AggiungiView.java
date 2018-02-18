@@ -25,6 +25,16 @@ public class AggiungiView extends JFrame {
     }
 
     public void setupView(JFrame f) {
+        annullaButton.setBorderPainted(false);
+        annullaButton.setFocusPainted(false);
+        annullaButton.setContentAreaFilled(false);
+        annullaButton.setOpaque(false);
+
+        aggiungiButton.setBorderPainted(false);
+        aggiungiButton.setFocusPainted(false);
+        aggiungiButton.setContentAreaFilled(false);
+        aggiungiButton.setOpaque(false);
+
         annullaButton.addActionListener(e -> f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING)));
 
 

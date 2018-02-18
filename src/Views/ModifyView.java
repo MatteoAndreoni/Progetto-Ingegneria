@@ -21,6 +21,15 @@ public class ModifyView extends JFrame{
         setupView(this);
     }
     public void setupView(JFrame f){
+        annullaButton.setBorderPainted(false);
+        annullaButton.setFocusPainted(false);
+        annullaButton.setContentAreaFilled(false);
+        annullaButton.setOpaque(false);
+
+        okButton.setBorderPainted(false);
+        okButton.setFocusPainted(false);
+        okButton.setContentAreaFilled(false);
+        okButton.setOpaque(false);
 
         ButtonGroup group = new ButtonGroup();
         group.add(aggiungiProdottoRadioButton);

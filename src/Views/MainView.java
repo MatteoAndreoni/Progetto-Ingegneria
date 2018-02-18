@@ -24,6 +24,7 @@ public class MainView extends Observer{
     private JTable catalogTable;
     private JToolBar mainToolbar;
     private JLabel titleLabel;
+    private JLabel infoLabel;
     private JScrollPane scrollPane;
     private JComboBox comboBox;
     private JTextField searchText;
@@ -67,9 +68,27 @@ public class MainView extends Observer{
         imageIcon = new ImageIcon(image.getScaledInstance(50, 50, Image.SCALE_SMOOTH));
         final ImageIcon gearIcon = imageIcon;
 
+        imageIcon = new ImageIcon(getClass().getResource("resources/music-store-live.png"));
+        image = imageIcon.getImage();
+        imageIcon = new ImageIcon(image.getScaledInstance(171, 100, Image.SCALE_SMOOTH));
+        final ImageIcon musicIcon = imageIcon;
+
+        imageIcon = new ImageIcon(getClass().getResource("resources/paypalNewLogo.jpg"));
+        image = imageIcon.getImage();
+        imageIcon = new ImageIcon(image.getScaledInstance(149, 71, Image.SCALE_SMOOTH));
+        final ImageIcon infoIcon = imageIcon;
+
+        titleLabel.setIcon(musicIcon);
+        infoLabel.setIcon(infoIcon);
+
         cartButton.setIcon(cartIcon);
         cartButton.setSize(30, 100);
         cartButton.setText("");
+
+        searchButton.setBorderPainted(false);
+        searchButton.setFocusPainted(false);
+        searchButton.setContentAreaFilled(false);
+        searchButton.setOpaque(false);
 
         comboBox.addItem("Artista");
         comboBox.addItem("Genere");
@@ -87,7 +106,7 @@ public class MainView extends Observer{
         usernameText.setText("username");
         passwordText.setText("password");
 
-        LineBorder lineBorder = new LineBorder(Color.white, 2, true);
+        LineBorder lineBorder = new LineBorder(Color.gray, 2, true);
         lineBorder.getRoundedCorners();
 
         usernameText.setBorder(lineBorder);
@@ -151,7 +170,8 @@ public class MainView extends Observer{
                 if(_user!=null) {
                     loginButton.setEnabled(false);
                     loginButton.setVisible(false);
-                    registerButton.setText("Logout");
+                    //registerButton.setText("Logout");
+                    registerButton.setIcon(new ImageIcon(getClass().getResource("resources/button_logout.png")));
                     usernameText.setEnabled(false);
                     usernameText.setVisible(false);
                     passwordText.setEnabled(false);
@@ -219,7 +239,8 @@ public class MainView extends Observer{
         _user=null;
         loginButton.setEnabled(true);
         loginButton.setVisible(true);
-        registerButton.setText("REGISTRATI");
+        //registerButton.setText("REGISTRATI");
+        registerButton.setIcon(new ImageIcon(getClass().getResource("resources/button_registrazione.png")));
         usernameText.setEnabled(true);
         usernameText.setVisible(true);
         passwordText.setEnabled(true);

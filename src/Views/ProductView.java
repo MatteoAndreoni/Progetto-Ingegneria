@@ -6,7 +6,9 @@ import Models.Catalog;
 import Models.Product;
 import Models.User;
 import SupportClasses.TableFactory;
+import com.sun.org.apache.xerces.internal.impl.dv.xs.AbstractDateTimeDV;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -23,6 +25,7 @@ public class ProductView extends JFrame{
     private JLabel artist;
     private JLabel genre;
     private JComboBox quantity;
+    private JLabel empty;
     private Product _product;
     private CartController _controller;
 
@@ -49,6 +52,18 @@ public class ProductView extends JFrame{
         description.setText(_product.get_description());
         artist.setText(_product.get_artist().get_name());
         genre.setText(_product.get_genre());
+        empty.setEnabled(false);
+        empty.setVisible(false);
+
+        addToCartButton.setBorderPainted(false);
+        addToCartButton.setContentAreaFilled(false);
+        addToCartButton.setFocusPainted(false);
+        addToCartButton.setOpaque(false);
+
+        annullaButton.setBorderPainted(false);
+        annullaButton.setFocusPainted(false);
+        annullaButton.setContentAreaFilled(false);
+        annullaButton.setOpaque(false);
 
         for(int i=1 ; i<=_product.get_productStocks() ; i++){
             quantity.addItem(i);
@@ -56,6 +71,10 @@ public class ProductView extends JFrame{
 
         if(_product.get_productStocks() == 0){
             addToCartButton.setEnabled(false);
+            quantity.setEnabled(false);
+            empty.setText("Prodotto esaurito");
+            empty.setEnabled(true);
+            empty.setVisible(true);
         }
 
         annullaButton.addActionListener(e -> frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING)));
@@ -72,5 +91,9 @@ public class ProductView extends JFrame{
         }
         else
             JOptionPane.showMessageDialog(null, "E' necessario essere loggati come clienti per procedere");
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }

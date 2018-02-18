@@ -21,6 +21,16 @@ public class EliminaView  extends JFrame{
     }
 
     public void setupView(JFrame f) {
+        annullaButton.setBorderPainted(false);
+        annullaButton.setFocusPainted(false);
+        annullaButton.setContentAreaFilled(false);
+        annullaButton.setOpaque(false);
+
+        eliminaButton.setBorderPainted(false);
+        eliminaButton.setFocusPainted(false);
+        eliminaButton.setContentAreaFilled(false);
+        eliminaButton.setOpaque(false);
+
         annullaButton.addActionListener(e -> f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING)));
 
 

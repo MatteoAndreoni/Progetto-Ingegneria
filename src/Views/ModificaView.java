@@ -25,6 +25,16 @@ public class ModificaView extends JFrame{
     public void setupView(JFrame f) {
         annullaButton.addActionListener(e -> f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING)));
 
+        modificaButton.setBorderPainted(false);
+        modificaButton.setFocusPainted(false);
+        modificaButton.setContentAreaFilled(false);
+        modificaButton.setOpaque(false);
+
+        annullaButton.setBorderPainted(false);
+        annullaButton.setFocusPainted(false);
+        annullaButton.setContentAreaFilled(false);
+        annullaButton.setOpaque(false);
+
 
         modificaButton.addActionListener(e -> {
 
