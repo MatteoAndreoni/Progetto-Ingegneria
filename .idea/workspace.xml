@@ -8,15 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9de1472b-4462-4c20-80cd-73a28297fd65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/AggiungiView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/CatalogController.java" afterPath="$PROJECT_DIR$/src/Controllers/CatalogController.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/AggiungiView.form" afterPath="$PROJECT_DIR$/src/Views/AggiungiView.form" />
-      <change beforePath="$PROJECT_DIR$/src/Views/AggiungiView.java" afterPath="$PROJECT_DIR$/src/Views/AggiungiView.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/EliminaView.form" afterPath="$PROJECT_DIR$/src/Views/EliminaView.form" />
-      <change beforePath="$PROJECT_DIR$/src/Views/EliminaView.java" afterPath="$PROJECT_DIR$/src/Views/EliminaView.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/ModificaView.java" afterPath="$PROJECT_DIR$/src/Views/ModificaView.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/RegistrationView.form" afterPath="$PROJECT_DIR$/src/Views/RegistrationView.form" />
-      <change beforePath="$PROJECT_DIR$/src/Views/RegistrationView.java" afterPath="$PROJECT_DIR$/src/Views/RegistrationView.java" />
+      <change beforePath="$PROJECT_DIR$/sql/musicstore.sql" afterPath="$PROJECT_DIR$/sql/musicstore.sql" />
+      <change beforePath="$PROJECT_DIR$/src/Views/resources/cart.png" afterPath="$PROJECT_DIR$/src/Views/resources/cart.png" />
+      <change beforePath="$PROJECT_DIR$/src/Views/resources/gear.png" afterPath="$PROJECT_DIR$/src/Views/resources/gear.png" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +49,7 @@
       <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2635">
+            <state relative-caret-position="-3025">
               <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
               <folding />
             </state>
@@ -102,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AggiungiView.form" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AggiungiView.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/AggiungiView.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
@@ -119,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="musicstore.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="musicstore.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sql/musicstore.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="609">
+              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/Models/Sale.java" />
         <option value="$PROJECT_DIR$/src/Models/Cart.java" />
         <option value="$PROJECT_DIR$/src/Models/Product.java" />
-        <option value="$PROJECT_DIR$/sql/musicstore.sql" />
         <option value="$PROJECT_DIR$/src/Controllers/SaleController.java" />
         <option value="$PROJECT_DIR$/src/Controllers/CartController.java" />
         <option value="$PROJECT_DIR$/src/Views/ProductView.java" />
@@ -182,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/Controllers/CatalogController.java" />
         <option value="$PROJECT_DIR$/src/Views/AggiungiView.java" />
         <option value="$PROJECT_DIR$/src/Views/AggiungiView.form" />
+        <option value="$PROJECT_DIR$/sql/musicstore.sql" />
       </list>
     </option>
   </component>
@@ -724,14 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2635">
-          <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/BuyView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1718">
@@ -746,22 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/musicstore.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="123" column="140" lean-forward="true" selection-start-line="123" selection-start-column="140" selection-end-line="123" selection-end-column="140" />
           <folding />
         </state>
       </provider>
@@ -785,6 +755,30 @@
     <entry file="file://$PROJECT_DIR$/src/Views/AggiungiView.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="123" column="140" lean-forward="true" selection-start-line="123" selection-start-column="140" selection-end-line="123" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3025">
+          <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/musicstore.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
