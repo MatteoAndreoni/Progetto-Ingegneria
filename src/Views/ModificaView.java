@@ -18,7 +18,7 @@ public class ModificaView extends JFrame{
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.pack();
         this.setVisible(true);
-        this.setSize(600, 400);
+        this.setSize(500, 400);
         setupView(this);
     }
 

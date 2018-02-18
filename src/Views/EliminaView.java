@@ -16,7 +16,7 @@ public class EliminaView  extends JFrame{
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.pack();
         this.setVisible(true);
-        this.setSize(400, 400);
+        this.setSize(500, 200);
         setupView(this);
     }
 

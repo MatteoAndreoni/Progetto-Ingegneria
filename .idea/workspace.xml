@@ -8,23 +8,16 @@
   <component name="ChangeListManager">
     <list default="true" id="9de1472b-4462-4c20-80cd-73a28297fd65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/CatalogController.java" afterPath="$PROJECT_DIR$/src/Controllers/CatalogController.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/AggiungiView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/AggiungiView.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ModificaView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ModificaView.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ModifyView.class" afterPath="$PROJECT_DIR$/out/production/ProgettoIng/Views/ModifyView.class" />
       <change beforePath="$PROJECT_DIR$/src/Views/AggiungiView.form" afterPath="$PROJECT_DIR$/src/Views/AggiungiView.form" />
-      <change beforePath="$PROJECT_DIR$/src/Views/AggiungiView.java" afterPath="$PROJECT_DIR$/src/Views/AggiungiView.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/BuyView.form" afterPath="$PROJECT_DIR$/src/Views/BuyView.form" />
-      <change beforePath="$PROJECT_DIR$/src/Views/BuyView.java" afterPath="$PROJECT_DIR$/src/Views/BuyView.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/CartView.form" afterPath="$PROJECT_DIR$/src/Views/CartView.form" />
-      <change beforePath="$PROJECT_DIR$/src/Views/CartView.java" afterPath="$PROJECT_DIR$/src/Views/CartView.java" />
       <change beforePath="$PROJECT_DIR$/src/Views/EliminaView.form" afterPath="$PROJECT_DIR$/src/Views/EliminaView.form" />
       <change beforePath="$PROJECT_DIR$/src/Views/EliminaView.java" afterPath="$PROJECT_DIR$/src/Views/EliminaView.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/MainView.form" afterPath="$PROJECT_DIR$/src/Views/MainView.form" />
-      <change beforePath="$PROJECT_DIR$/src/Views/MainView.java" afterPath="$PROJECT_DIR$/src/Views/MainView.java" />
       <change beforePath="$PROJECT_DIR$/src/Views/ModificaView.form" afterPath="$PROJECT_DIR$/src/Views/ModificaView.form" />
       <change beforePath="$PROJECT_DIR$/src/Views/ModificaView.java" afterPath="$PROJECT_DIR$/src/Views/ModificaView.java" />
       <change beforePath="$PROJECT_DIR$/src/Views/ModifyView.form" afterPath="$PROJECT_DIR$/src/Views/ModifyView.form" />
       <change beforePath="$PROJECT_DIR$/src/Views/ModifyView.java" afterPath="$PROJECT_DIR$/src/Views/ModifyView.java" />
-      <change beforePath="$PROJECT_DIR$/src/Views/ProductView.form" afterPath="$PROJECT_DIR$/src/Views/ProductView.form" />
-      <change beforePath="$PROJECT_DIR$/src/Views/ProductView.java" afterPath="$PROJECT_DIR$/src/Views/ProductView.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,28 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ModifyView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModifyView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModifyView.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BuyView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/BuyView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="91" column="38" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="91" selection-end-column="38" />
+            <state relative-caret-position="1751">
+              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,18 +56,18 @@
       <file leaf-file-name="ModificaView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EliminaView.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EliminaView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Views/EliminaView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -88,8 +76,8 @@
       <file leaf-file-name="AggiungiView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/AggiungiView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="494">
+              <caret line="45" column="11" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -98,17 +86,10 @@
       <file leaf-file-name="CatalogController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="227" column="13" lean-forward="false" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+            <state relative-caret-position="579">
+              <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AggiungiView.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Views/AggiungiView.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -170,14 +151,14 @@
         <option value="$PROJECT_DIR$/src/Views/BuyView.java" />
         <option value="$PROJECT_DIR$/src/Views/BuyView.form" />
         <option value="$PROJECT_DIR$/src/Controllers/CatalogController.java" />
-        <option value="$PROJECT_DIR$/src/Views/AggiungiView.form" />
-        <option value="$PROJECT_DIR$/src/Views/EliminaView.form" />
-        <option value="$PROJECT_DIR$/src/Views/ModificaView.form" />
-        <option value="$PROJECT_DIR$/src/Views/ModificaView.java" />
-        <option value="$PROJECT_DIR$/src/Views/EliminaView.java" />
         <option value="$PROJECT_DIR$/src/Views/AggiungiView.java" />
         <option value="$PROJECT_DIR$/src/Views/ModifyView.form" />
         <option value="$PROJECT_DIR$/src/Views/ModifyView.java" />
+        <option value="$PROJECT_DIR$/src/Views/AggiungiView.form" />
+        <option value="$PROJECT_DIR$/src/Views/ModificaView.java" />
+        <option value="$PROJECT_DIR$/src/Views/ModificaView.form" />
+        <option value="$PROJECT_DIR$/src/Views/EliminaView.form" />
+        <option value="$PROJECT_DIR$/src/Views/EliminaView.java" />
       </list>
     </option>
   </component>
@@ -202,8 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,48 +231,13 @@
               <item name="Progetto-Ingegneria" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Progetto-Ingegneria" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="AggiungiView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="MusicStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Progetto-Ingegneria" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="CartView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="MusicStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Progetto-Ingegneria" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="EliminaView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="MusicStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Progetto-Ingegneria" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
               <item name="ModificaView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="MusicStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Progetto-Ingegneria" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="ModifyView" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -427,28 +373,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1366" height="741" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32661718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2277691" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22693531" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22327965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39872748" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -607,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,16 +572,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/resources/button_aggiungi-al-carrello.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/resources/button_aggiungi-al-carrello.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/resources/button_aggiungi-al-carrello.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/Views/resources/button_aggiungi-al-carrello.png" />
     <entry file="file://$PROJECT_DIR$/src/Views/resources/cart.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -652,11 +589,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/resources/music-store-live.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/resources/music-store-live.png" />
     <entry file="file://$PROJECT_DIR$/src/Controllers/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -665,11 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/resources/paypalNewLogo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/resources/paypalNewLogo.jpg" />
     <entry file="file://$PROJECT_DIR$/src/Models/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -700,9 +629,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="97" column="20" lean-forward="false" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
-          <folding>
-            <marker date="1518912297673" expanded="true" signature="3727:3785" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -729,15 +656,40 @@
         <state relative-caret-position="-2517">
           <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/BuyView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
+    <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="227" column="13" lean-forward="false" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/AggiungiView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="45" column="11" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -745,6 +697,22 @@
     <entry file="file://$PROJECT_DIR$/src/Views/AggiungiView.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.form">
@@ -757,49 +725,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/BuyView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="91" column="38" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="91" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/EliminaView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/AggiungiView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>
