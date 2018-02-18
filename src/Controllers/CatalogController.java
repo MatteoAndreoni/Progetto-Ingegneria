@@ -110,7 +110,7 @@ public class CatalogController
 
     }
 
-    public static void addProduct(String titolo, String artista, String genere, String prezzo, String pezzi ){
+    public static void addProduct(String titolo, String artista, String genere, String prezzo, String pezzi, String percorsoCopertina, String descrizione ){
 
         LocalDateTime t = LocalDateTime.now();
         LocalDate localDate = LocalDate.now();
@@ -121,7 +121,7 @@ public class CatalogController
         m= new Musician(artista,genere, localDate, l);
         ArrayList<Musician> mm = new ArrayList<Musician>(Arrays.asList(m));
 
-        String q = "Insert into products (title, coverimage,price,firstadded,artist,genre,productstocks) values (?,?,?,?,?,?,?)";
+        String q = "Insert into products (title, coverimage,price,firstadded,description, artist,genre,productstocks) values (?,?,?,?,?,?,?,?)";
         String b = "Insert into musician (name,genre,birthdate,instruments) values (?,?,?,?)";
         try{
             try {
@@ -138,15 +138,20 @@ public class CatalogController
                 ResultSet rs = pst2.executeQuery();
                 if (rs.next()) {
                     Integer id = rs.getInt("id");
-                    String cover = "resources/gear.png";
+                    String cover = "";
+                    if(percorsoCopertina.equals(""))
+                        cover = "resources/gear.png";
+                    else
+                        cover = percorsoCopertina;
                     PreparedStatement pst3 = DBConnSingleton.getConn().prepareStatement(q);
                     pst3.setString(1, titolo);
                     pst3.setString(2, cover);
                     pst3.setFloat(3, Float.valueOf(prezzo.toString()));
                     pst3.setObject(4, localDate);
-                    pst3.setInt(5, id);
-                    pst3.setString(6, genere);
-                    pst3.setInt(7, Integer.valueOf(pezzi));
+                    pst3.setString(5, descrizione);
+                    pst3.setInt(6, id);
+                    pst3.setString(7, genere);
+                    pst3.setInt(8, Integer.valueOf(pezzi));
                     pst3.executeUpdate();
 
                     PreparedStatement pst4 = DBConnSingleton.getConn().prepareStatement("SELECT id FROM products WHERE title=? AND artist=? AND genre=?");
@@ -170,35 +175,64 @@ public class CatalogController
         }
     }
 
-    public static void modifyProduct(String nome, String prezzo, String pezzi){
-        String s ="update products set price = ?, productstocks = ? where title ilike ?";
+    public static void modifyProduct(String nome, String prezzo, String pezzi) {
         try {
-            PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(s);
-            pst.setFloat(1, Float.valueOf(prezzo.toString()));
-            pst.setInt(2, Integer.valueOf(pezzi.toString()));
-            pst.setString(3, nome);
-            pst.executeUpdate();
-        }
-        catch (SQLException e)
-        {
+            String query = "SELECT * from products WHERE title ilike ?";
+            PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(query);
+            pst.setString(1, nome);
+            ResultSet rs = pst.executeQuery();
+
+            if (!rs.isBeforeFirst()) {
+                JOptionPane.showMessageDialog(null, "Prodotto non presente");
+            } else {
+                String s = "update products set price = ?, productstocks = ? where title ilike ?";
+                try {
+                    pst = DBConnSingleton.getConn().prepareStatement(s);
+                    pst.setFloat(1, Float.valueOf(prezzo.toString()));
+                    pst.setInt(2, Integer.valueOf(pezzi.toString()));
+                    pst.setString(3, nome);
+                    pst.executeUpdate();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }
+
 
     public static void deleteProduct(String nome){
-        String s ="delete from products where title ilike ?";
+
         try {
-            PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(s);
-            pst.setString(1,nome);
-            pst.executeUpdate();
+            String query = "SELECT * from products WHERE title ilike ?";
+            PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(query);
+            pst.setString(1, nome);
+            ResultSet rs = pst.executeQuery();
+
+            if(!rs.isBeforeFirst()){
+                JOptionPane.showMessageDialog(null, "Prodotto non presente");
+            }
+            else{
+                String s ="delete from products where title ilike ?";
+                try {
+                    pst = DBConnSingleton.getConn().prepareStatement(s);
+                    pst.setString(1,nome);
+                    pst.executeUpdate();
+                }
+                catch (SQLException e)
+                {
+                    e.printStackTrace();
+                }
+            }
         }
-        catch (SQLException e)
-        {
+        catch(SQLException e){
             e.printStackTrace();
         }
     }
 
-    public void emptyAlert(){
+
+        public void emptyAlert(){
         //controllo il database per vedere se ci sono prodotti con meno di due rimanenze in magazzino
         String query = "SELECT * FROM products WHERE productstocks < 2;";
 

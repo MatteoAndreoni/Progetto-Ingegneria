@@ -35,10 +35,12 @@ public class EliminaView  extends JFrame{
 
 
         eliminaButton.addActionListener(e -> {
-
-            CatalogController.deleteProduct(nome.getText());
-
-            f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+            if(!nome.getText().equals("")) {
+                CatalogController.deleteProduct(nome.getText());
+                f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+            }
+            else
+                JOptionPane.showMessageDialog(null, "Immettere un titolo");
         });
     }
 

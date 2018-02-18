@@ -37,10 +37,13 @@ public class ModificaView extends JFrame{
 
 
         modificaButton.addActionListener(e -> {
-
-            CatalogController.modifyProduct(nome.getText(),prezzo.getText(),pezzi.getText());
-
-            f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+            try {
+                CatalogController.modifyProduct(nome.getText(), prezzo.getText(), pezzi.getText());
+                f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+            }
+            catch(java.lang.NumberFormatException e1){
+                JOptionPane.showMessageDialog(null, "Immettere tutti i campi in maniera corretta");
+            }
         });
     }
 

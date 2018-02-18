@@ -14,6 +14,8 @@ public class AggiungiView extends JFrame {
     private JTextField genere;
     private JButton aggiungiButton;
     private JButton annullaButton;
+    private JTextField perCopertina;
+    private JTextField descrizione;
 
     public AggiungiView() {
         this.setContentPane(this.addPanel);
@@ -39,10 +41,13 @@ public class AggiungiView extends JFrame {
 
 
         aggiungiButton.addActionListener(e -> {
-
-            CatalogController.addProduct(titolo.getText(), artista.getText(),genere.getText(),prezzo.getText(),pezzi.getText());
-
-            f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+            if(titolo.getText().equals("") || artista.getText().equals("") || genere.getText().equals("") || prezzo.getText().equals("") || pezzi.getText().equals("")) {
+                JOptionPane.showMessageDialog(null, "Immettere tutti i campi in maniera corretta");
+            }
+            else{
+                CatalogController.addProduct(titolo.getText(), artista.getText(), genere.getText(), prezzo.getText(), pezzi.getText(), perCopertina.getText(), descrizione.getText());
+                f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+            }
         });
     }
 
