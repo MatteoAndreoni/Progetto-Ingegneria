@@ -176,7 +176,6 @@ public class MainView extends Observer{
                     usernameText.setVisible(false);
                     passwordText.setEnabled(false);
                     passwordText.setVisible(false);
-
                 }
                 else
                 {
@@ -269,6 +268,7 @@ public class MainView extends Observer{
                     premiumAcc.setVisible(true);
                 }
                 JOptionPane.showMessageDialog(null, "Loggato come Cliente");
+                new SuggestView();
             }
             else
             {
