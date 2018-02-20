@@ -12,7 +12,8 @@ public class DBConnSingleton {
     private DBConnSingleton(){
         try
         {
-             _conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/store", "postgres","a");
+             _conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/store",
+                     "postgres","a");
         }
         catch (SQLException e)
         {

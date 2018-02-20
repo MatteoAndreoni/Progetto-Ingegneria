@@ -54,67 +54,56 @@ public class Product extends Subject{
     }
 
     public void set_title(String _title) {
-
         this._title = _title;
         notifyAllObservers();
     }
 
     public void set_trackList(ArrayList<String> _songList) {
-
         this._trackList = _songList;
         notifyAllObservers();
     }
 
     public void set_coverImage(String _coverImage) {
-
         this._coverImage = _coverImage;
         notifyAllObservers();
     }
 
     public void set_price(float _price) {
-
         this._price = _price;
         notifyAllObservers();
     }
 
     public void set_firstAddedInStore(LocalDateTime _firstAddedInStore) {
-
         this._firstAddedInStore = _firstAddedInStore;
         notifyAllObservers();
     }
 
     public void set_artist(Musician _artist) {
-
         this._artist = _artist;
         notifyAllObservers();
     }
 
     public void set_description(String _description) {
-
         this._description = _description;
         notifyAllObservers();
     }
 
     public void set_genre(String _genre) {
-
         this._genre = _genre;
         notifyAllObservers();
     }
 
     public void set_involvedArtists(ArrayList<Musician> _involvedArtists) {
-
         this._involvedArtists = _involvedArtists;
         notifyAllObservers();
     }
 
     public void set_usedInstruments(ArrayList<String> _usedInstruments) {
-
         this._usedInstruments = _usedInstruments;
         notifyAllObservers();
     }
 
     public void set_productStocks(int _productStocks) {
-
         this._productStocks = _productStocks;
         notifyAllObservers();
     }

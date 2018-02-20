@@ -42,6 +42,14 @@ public class Cart extends Subject{
         notifyAllObservers();
     }
 
+    public void removeFromCart(int position)
+    {
+        _totalPrice -= _cartList.get(position).get_price();
+        _cartList.remove(position);
+        System.out.println(_cartList);
+        notifyAllObservers();
+    }
+
     public void set_totalPrice(float price)
     {
         _totalPrice = price;
@@ -50,14 +58,6 @@ public class Cart extends Subject{
     public void clear()
     {
         _cartList.clear();
-        notifyAllObservers();
-    }
-
-    public void removeFromCart(int position)
-    {
-        _totalPrice -= _cartList.get(position).get_price();
-        _cartList.remove(position);
-        System.out.println(_cartList);
         notifyAllObservers();
     }
 
