@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9de1472b-4462-4c20-80cd-73a28297fd65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Cart.java" afterPath="$PROJECT_DIR$/src/Models/Cart.java" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Product.java" afterPath="$PROJECT_DIR$/src/Models/Product.java" />
-      <change beforePath="$PROJECT_DIR$/src/SupportClasses/DBConnSingleton.java" afterPath="$PROJECT_DIR$/src/SupportClasses/DBConnSingleton.java" />
-    </list>
+    <list default="true" id="9de1472b-4462-4c20-80cd-73a28297fd65" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
