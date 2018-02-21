@@ -49,27 +49,7 @@ public class CartView extends Observer {
         setupView();
 
     }
-
-    public CartView(Cart c)
-    {
-        _cart = c;
-        this.setContentPane(this._cartPanel);
-        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-
-        this.addWindowListener(new java.awt.event.WindowAdapter() {
-            @Override
-            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
-                // _cart.resetCart();
-            }
-        });
-
-        this.pack();
-        this.setVisible(true);
-        this.setSize(400, 400 );
-
-        setupView();
-
-    }
+    
 
     public void setupView()
     {

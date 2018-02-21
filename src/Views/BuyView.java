@@ -55,7 +55,7 @@ public class BuyView extends Observer {
 
         annullaButton.addActionListener(e -> {
             this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
-            new CartView(_cart);
+            new CartView(_cart, _main);
         });
 
         spedizioneCombo.addActionListener(new ActionListener() {
@@ -160,7 +160,4 @@ public class BuyView extends Observer {
 
     }
 
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
-    }
 }
