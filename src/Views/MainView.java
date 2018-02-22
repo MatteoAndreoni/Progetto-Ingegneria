@@ -268,7 +268,6 @@ public class MainView extends Observer{
                     premiumAcc.setVisible(true);
                 }
                 JOptionPane.showMessageDialog(null, "Loggato come Cliente");
-                new SuggestView();
             }
             else
             {

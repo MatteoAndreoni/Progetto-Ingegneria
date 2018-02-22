@@ -49,7 +49,7 @@ public class CartView extends Observer {
         setupView();
 
     }
-    
+
 
     public void setupView()
     {
