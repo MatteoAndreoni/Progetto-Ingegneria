@@ -126,5 +126,6 @@ VALUES('Powerslave','{"Aces High, 2 Minutes to Midnight, Losfer Words (Big ''Orr
 
 --INSERIMENTO UTENTI
 INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('ABCDEF12G34H567I','mario','abcd','mario','rossi','milano','1234567','12345456', FALSE );
+INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee, ispremium) VALUES ('ABCDEF98G76H543I','luca','ciao','luca','bianchi','verona','574250724','23479852', FALSE, TRUE );
 
 INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('aaaaaaaaaaaaaaaa','admin','admin','admin','admin','admin','1234567','12345456', TRUE );
