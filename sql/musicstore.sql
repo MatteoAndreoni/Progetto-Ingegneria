@@ -18,16 +18,16 @@ CREATE TABLE Products (
 	price NUMERIC(5,2),
 	firstadded DATE,
 	description VARCHAR(512), 
-  artist NUMERIC,
+    artist NUMERIC,
 	genre VARCHAR(20),
-  involvedartists TEXT ARRAY,
+    involvedartists TEXT ARRAY,
 	usedinstruments TEXT ARRAY, 
 	productstocks integer
 );
 
-DROP TABLE IF EXISTS Utente CASCADE;
+DROP TABLE IF EXISTS Usr CASCADE;
 
-CREATE TABLE Utente(
+CREATE TABLE Usr(
 	cf CHAR(16), 
 	username VARCHAR(15) PRIMARY KEY, 
 	password VARCHAR(20) NOT NULL, 
@@ -43,8 +43,8 @@ CREATE TABLE Utente(
 DROP TABLE IF EXISTS Sale CASCADE;
 
 CREATE TABLE Sale(
-  id SERIAL PRIMARY KEY,
-	username VARCHAR(15) REFERENCES Utente(username) ON UPDATE CASCADE ON DELETE SET DEFAULT ,
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(15) REFERENCES Usr(username) ON UPDATE CASCADE ON DELETE SET DEFAULT ,
 	products INTEGER ARRAY,
 	price NUMERIC, 
 	saledatetime TIMESTAMP with TIME ZONE,
@@ -125,7 +125,7 @@ INSERT INTO Products (title,tracklist,coverimage,price,firstadded,description,ar
 VALUES('Powerslave','{"Aces High, 2 Minutes to Midnight, Losfer Words (Big ''Orra), Flash of the Blade, The Duellists, Back in the Village, Powerslave, Rime of the Ancient Mariner"}','resources/powerslave.jpg',9.99,'2017-09-15','Quarto album in studio della band britannica Iron Maiden',33,'metal','{"Bruce Dickinson, Steve Harris, Adrian Smith, Dave Murray, Nicko McBrain"}','{chitarra, voce, basso, batteria}',10);
 
 --INSERIMENTO UTENTI
-INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('ABCDEF12G34H567I','mario','abcd','mario','rossi','milano','1234567','12345456', FALSE );
-INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee, ispremium) VALUES ('ABCDEF98G76H543I','luca','ciao','luca','bianchi','verona','574250724','23479852', FALSE, TRUE );
+INSERT INTO Usr (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('ABCDEF12G34H567I','mario','abcd','mario','rossi','milano','1234567','12345456', FALSE );
+INSERT INTO Usr (cf, username, password, name, surname, address, telephone, cellphone, isemployee, ispremium) VALUES ('ABCDEF98G76H543I','luca','ciao','luca','bianchi','verona','574250724','23479852', FALSE, TRUE );
 
-INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('aaaaaaaaaaaaaaaa','admin','admin','admin','admin','admin','1234567','12345456', TRUE );
+INSERT INTO Usr (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('CKWOFK98W76C543X','admin','admin','admin','admin','admin','1234567','12345456', TRUE );
