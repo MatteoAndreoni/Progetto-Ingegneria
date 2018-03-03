@@ -53,13 +53,14 @@ CREATE TABLE Sale(
 	deliverytype VARCHAR(10)
 );
 
+--INSERIMENTO MUSICISTI E BAND
 INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Adele','pop','1988-05-05','{"voce"}');
 
-INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Paul McCartney','pop, rock','1942-06-18','{"voce, basso"}');
-INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('John Lennon','pop, rock','1940-10-09','{"voce, chitarra"}');
-INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('George Harrison','pop, rock','1943-02-25','{"voce, chitarra"}');
-INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Ringo Starr','pop, rock','1940-07-07','{"voce, batteria"}');
-INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('The Beatles','pop, rock','1957-07-06','{"voce, chitarra, basso, batteria"}');
+INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Paul McCartney','pop','1942-06-18','{"voce, basso"}');
+INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('John Lennon','pop','1940-10-09','{"voce, chitarra"}');
+INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('George Harrison','pop','1943-02-25','{"voce, chitarra"}');
+INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Ringo Starr','pop','1940-07-07','{"voce, batteria"}');
+INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('The Beatles','pop','1957-07-06','{"voce, chitarra, basso, batteria"}');
 
 INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Herbie Hancock','jazz','1940-04-12','{"piano, tastiera"}');
 
@@ -101,7 +102,7 @@ INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Adrian Smith','
 INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Dave Murray','metal','1956-12-23','{"chitarra"}');
 INSERT INTO Musician (name,genre,birthdate,instruments) VALUES ('Nicko McBrain','metal','1952-06-05','{"batteria"}');
 
-
+--INSERIMENTO PRODOTTI
 INSERT INTO Products (title,tracklist,coverimage,price,firstadded,description,artist,genre,involvedartists,usedinstruments,productstocks)
 VALUES('25','{"Hello, Send My Love (To Your New Lover), I Miss You, When We Were Young, Remedy, Water Under the Bridge, River Lea, Love in the Dark, Million Years Ago, All I Ask, Sweetest Devotion"}','resources/25.jpg',16.99,'2017-09-15','Terzo album in studio della cantante britannica Adele',1,'pop soul','{"Adele"}','{chitarra, voce, basso, archi, tastiera, pianoforte, batteria}',10);
 INSERT INTO Products (title,tracklist,coverimage,price,firstadded,description,artist,genre,involvedartists,usedinstruments,productstocks)
@@ -123,13 +124,7 @@ VALUES('Master of Puppets','{"Battery, Master of Puppets, The Thing That Should 
 INSERT INTO Products (title,tracklist,coverimage,price,firstadded,description,artist,genre,involvedartists,usedinstruments,productstocks)
 VALUES('Powerslave','{"Aces High, 2 Minutes to Midnight, Losfer Words (Big ''Orra), Flash of the Blade, The Duellists, Back in the Village, Powerslave, Rime of the Ancient Mariner"}','resources/powerslave.jpg',9.99,'2017-09-15','Quarto album in studio della band britannica Iron Maiden',33,'metal','{"Bruce Dickinson, Steve Harris, Adrian Smith, Dave Murray, Nicko McBrain"}','{chitarra, voce, basso, batteria}',10);
 
-
-
-
-
-
-
-
+--INSERIMENTO UTENTI
 INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('ABCDEF12G34H567I','mario','abcd','mario','rossi','milano','1234567','12345456', FALSE );
 
 INSERT INTO Utente (cf, username, password, name, surname, address, telephone, cellphone, isemployee)  VALUES ('aaaaaaaaaaaaaaaa','admin','admin','admin','admin','admin','1234567','12345456', TRUE );

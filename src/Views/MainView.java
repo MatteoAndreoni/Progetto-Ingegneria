@@ -236,6 +236,7 @@ public class MainView extends Observer{
     public void logout(){
 
         _user=null;
+        _cartController=null;
         loginButton.setEnabled(true);
         loginButton.setVisible(true);
         //registerButton.setText("REGISTRATI");
