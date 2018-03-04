@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de1472b-4462-4c20-80cd-73a28297fd65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sql/musicstore.sql" afterPath="$PROJECT_DIR$/sql/musicstore.sql" />
+      <change beforePath="$PROJECT_DIR$/Diagrammi_Ingengeria_SW(activity).mdj" afterPath="$PROJECT_DIR$/Diagrammi_Ingengeria_SW(activity).mdj" />
+      <change beforePath="$PROJECT_DIR$/diagrammi/activity/generic user activity diagram.png" afterPath="$PROJECT_DIR$/diagrammi/activity/generic user activity diagram.png" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +65,7 @@
       <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="3870">
               <caret line="239" column="29" lean-forward="false" selection-start-line="239" selection-start-column="29" selection-end-line="239" selection-end-column="29" />
               <folding />
             </state>
@@ -85,7 +85,7 @@
       <file leaf-file-name="musicstore.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sql/musicstore.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1629">
+            <state relative-caret-position="581">
               <caret line="130" column="125" lean-forward="false" selection-start-line="130" selection-start-column="125" selection-end-line="130" selection-end-column="125" />
               <folding />
             </state>
@@ -105,7 +105,7 @@
       <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/CartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3168">
+            <state relative-caret-position="2934">
               <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding />
             </state>
@@ -199,9 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -248,6 +245,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,7 +529,7 @@
         <state relative-caret-position="323">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -699,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3168">
+        <state relative-caret-position="2934">
           <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding />
         </state>
@@ -715,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/MainView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="3870">
           <caret line="239" column="29" lean-forward="false" selection-start-line="239" selection-start-column="29" selection-end-line="239" selection-end-column="29" />
           <folding />
         </state>
@@ -723,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/musicstore.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1629">
+        <state relative-caret-position="581">
           <caret line="130" column="125" lean-forward="false" selection-start-line="130" selection-start-column="125" selection-end-line="130" selection-end-column="125" />
           <folding />
         </state>
