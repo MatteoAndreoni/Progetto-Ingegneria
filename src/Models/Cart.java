@@ -14,7 +14,7 @@ public class Cart extends Subject{
     {
         _totalPrice = 0;
         _user = user;
-        _cartList = new ArrayList<Product>();
+        _cartList = new ArrayList<>();
     }
 
     public ArrayList<Product> get_cartList() {
@@ -25,12 +25,12 @@ public class Cart extends Subject{
         _cartList.add(p);
         if(!_user.get_isPremium()) {
             _totalPrice += p.get_price();
-            arrotonda(_totalPrice, 2);
+            round(_totalPrice, 2);
         }
         else {
             _totalPrice += p.get_price();
             _totalPrice *= 0.9;
-            _totalPrice = arrotonda(_totalPrice, 2);
+            _totalPrice = round(_totalPrice, 2);
             System.out.println("Prezzo totale: "+ _totalPrice);
         }
         notifyAllObservers();
@@ -63,7 +63,7 @@ public class Cart extends Subject{
         return _totalPrice;
     }
 
-    public float arrotonda( float numero, int nCifreDecimali ){
-        return (float)(Math.round( numero * Math.pow( 10, nCifreDecimali ) )/Math.pow( 10, nCifreDecimali ));
+    public float round( float number, int decimals ){
+        return (float)(Math.round( number * Math.pow( 10, decimals ) )/Math.pow( 10, decimals ));
     }
 }

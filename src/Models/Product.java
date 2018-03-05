@@ -10,10 +10,10 @@ import java.util.ArrayList;
 
 public class Product extends Subject{
 
-    private int _code;
+    private int _id;
     private String _title;
     private ArrayList<String> _trackList;
-    private String _coverImage; //per prelevare immagine da un URL
+    private String _coverImage;
     private float _price;
     private LocalDateTime _firstAddedInStore;
     private String _description;
@@ -23,18 +23,13 @@ public class Product extends Subject{
     private ArrayList<String> _usedInstruments;
     private int _productStocks;
 
-    public Product()
-    {
-
-    }
-
-    public Product(int code, String title){
-        _code = code;
+    public Product(int id, String title){
+        _id = id;
         _title = title;
     }
 
-    public Product (int code, String title, ArrayList<String> trackList, String coverImage, float price, LocalDateTime firstAddedInStore, String description, Musician artist, String genre, ArrayList<Musician> involvedArtists, ArrayList<String> usedInstruments, int productStocks) {
-        _code = code;
+    public Product (int id, String title, ArrayList<String> trackList, String coverImage, float price, LocalDateTime firstAddedInStore, String description, Musician artist, String genre, ArrayList<Musician> involvedArtists, ArrayList<String> usedInstruments, int productStocks) {
+        _id = id;
         _title = title;
         _trackList = trackList;
         _coverImage = coverImage;
@@ -48,68 +43,68 @@ public class Product extends Subject{
         _productStocks = productStocks;
     }
 
-    public void set_code(int _code) {
-        this._code = _code;
+    public void set_code(int id) {
+        this._id = id;
         notifyAllObservers();
     }
 
-    public void set_title(String _title) {
-        this._title = _title;
+    public void set_title(String title) {
+        this._title = title;
         notifyAllObservers();
     }
 
-    public void set_trackList(ArrayList<String> _songList) {
-        this._trackList = _songList;
+    public void set_trackList(ArrayList<String> songList) {
+        this._trackList = songList;
         notifyAllObservers();
     }
 
-    public void set_coverImage(String _coverImage) {
-        this._coverImage = _coverImage;
+    public void set_coverImage(String coverImage) {
+        this._coverImage = coverImage;
         notifyAllObservers();
     }
 
-    public void set_price(float _price) {
-        this._price = _price;
+    public void set_price(float price) {
+        this._price = price;
         notifyAllObservers();
     }
 
-    public void set_firstAddedInStore(LocalDateTime _firstAddedInStore) {
-        this._firstAddedInStore = _firstAddedInStore;
+    public void set_firstAddedInStore(LocalDateTime firstAddedInStore) {
+        this._firstAddedInStore = firstAddedInStore;
         notifyAllObservers();
     }
 
-    public void set_artist(Musician _artist) {
-        this._artist = _artist;
+    public void set_artist(Musician artist) {
+        this._artist = artist;
         notifyAllObservers();
     }
 
-    public void set_description(String _description) {
-        this._description = _description;
+    public void set_description(String description) {
+        this._description = description;
         notifyAllObservers();
     }
 
-    public void set_genre(String _genre) {
-        this._genre = _genre;
+    public void set_genre(String genre) {
+        this._genre = genre;
         notifyAllObservers();
     }
 
-    public void set_involvedArtists(ArrayList<Musician> _involvedArtists) {
-        this._involvedArtists = _involvedArtists;
+    public void set_involvedArtists(ArrayList<Musician> involvedArtists) {
+        this._involvedArtists = involvedArtists;
         notifyAllObservers();
     }
 
-    public void set_usedInstruments(ArrayList<String> _usedInstruments) {
-        this._usedInstruments = _usedInstruments;
+    public void set_usedInstruments(ArrayList<String> usedInstruments) {
+        this._usedInstruments = usedInstruments;
         notifyAllObservers();
     }
 
-    public void set_productStocks(int _productStocks) {
-        this._productStocks = _productStocks;
+    public void set_productStocks(int productStocks) {
+        this._productStocks = productStocks;
         notifyAllObservers();
     }
 
-    public int get_code() {
-        return _code;
+    public int get_id() {
+        return _id;
     }
 
     public String get_title() {

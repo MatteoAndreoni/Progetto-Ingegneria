@@ -2,14 +2,12 @@
 package Controllers;
 
 import Models.Cart;
-import Models.Musician;
 import Models.Product;
 import SupportClasses.DBConnSingleton;
 
 import java.sql.*;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Arrays;
+
+import static Controllers.CatalogController.getProductFromQuery;
 
 public class CartController {
 
@@ -111,7 +109,7 @@ public class CartController {
 
                 rs.next();
                 if(b[i]!=0) {
-                    p = new Product();
+                    /*p = new Product();
                     p.set_code(rs.getInt(1));
                     p.set_title(rs.getString(2));
                     Array a1 = rs.getArray(3);
@@ -135,8 +133,9 @@ public class CartController {
                     Array g = rs.getArray(17);
                     ArrayList<String> instruments = new ArrayList(Arrays.asList(g));
                     Musician m = new Musician(name, genre, birthDate, instruments);
-                    p.set_artist(m);
-                    _cart.addToCart(p);
+                    p.set_artist(m);*/
+                    //getProductFromQuery(_cart.addToCart(p));
+                    _cart.addToCart(getProductFromQuery(rs));
                 }
         }
     }
@@ -165,7 +164,7 @@ public class CartController {
                 }
 
                 for(int j=b.length ; j<b.length+quantity ; j++)
-                    c[j]=p.get_code();
+                    c[j]=p.get_id();
 
                 query = "UPDATE sale SET products = '"+conn.createArrayOf(a.getBaseTypeName(),c)+"' WHERE sale.username ILIKE ?  AND saledatetime IS NULL;";
                 stmt = conn.prepareStatement(query);

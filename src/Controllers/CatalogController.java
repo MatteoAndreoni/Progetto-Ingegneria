@@ -48,8 +48,29 @@ public class CatalogController
         Product p;
         while(rs.next())
         {
-            p = new Product();
-            p.set_code(rs.getInt(1));
+            _catalog.add(getProductFromQuery(rs));
+            /*String name = rs.getString(14);
+            String genre = rs.getString(15);
+            LocalDate birthDate = rs.getTimestamp(16).toLocalDateTime().toLocalDate();
+            Array g = rs.getArray(17);
+            ArrayList<String> instruments = new ArrayList(Arrays.asList(g));
+            Musician artist = new Musician(name, genre, birthDate, instruments);
+
+            p = new Product(
+                    rs.getInt(1), //id
+                    rs.getString(2), //title
+                    new ArrayList(Arrays.asList(rs.getArray(3))), //tracklist
+                    rs.getString(4), //coverimage
+                    rs.getFloat(5), //price
+                    rs.getTimestamp(6).toLocalDateTime(), //firstAddedInStore
+                    rs.getString(7), //description
+                    artist, //musician
+                    rs.getString(9), //genre
+                    new ArrayList(Arrays.asList(rs.getArray(10))), //involvedArtist
+                    new ArrayList(Arrays.asList(rs.getArray(11))), //usedInstruments
+                    rs.getInt(12) //productStocks
+            );*/
+            /*p.set_code(rs.getInt(1));
             p.set_title(rs.getString(2));
             Array a = rs.getArray(3);
             ArrayList<String> b = new ArrayList(Arrays.asList(a));
@@ -66,14 +87,9 @@ public class CatalogController
             ArrayList<String> f = new ArrayList(Arrays.asList(e));
             p.set_usedInstruments(f);
             p.set_productStocks(rs.getInt(12));
-            String name = rs.getString(14);
-            String genre = rs.getString(15);
-            LocalDate birthDate = rs.getTimestamp(16).toLocalDateTime().toLocalDate();
-            Array g = rs.getArray(17);
-            ArrayList<String> instruments = new ArrayList(Arrays.asList(g));
-            Musician m = new Musician(name, genre, birthDate, instruments);
-            p.set_artist(m);
-            _catalog.add(p);
+
+            p.set_artist(m);*/
+            //_catalog.add(p);
         }
     }
 
@@ -241,6 +257,34 @@ public class CatalogController
         }
     }
 
+    //metodo che estrapola un prodotto dal risultato di una query
+    //usato anche nel CartController
+    public static Product getProductFromQuery(ResultSet rs) throws SQLException{
+        String name = rs.getString(14);
+        String genre = rs.getString(15);
+        LocalDate birthDate = rs.getTimestamp(16).toLocalDateTime().toLocalDate();
+        Array g = rs.getArray(17);
+        ArrayList<String> instruments = new ArrayList(Arrays.asList(g));
+        Musician artist = new Musician(name, genre, birthDate, instruments);
+
+        Product p = new Product(
+                rs.getInt(1), //id
+                rs.getString(2), //title
+                new ArrayList(Arrays.asList(rs.getArray(3))), //tracklist
+                rs.getString(4), //coverimage
+                rs.getFloat(5), //price
+                rs.getTimestamp(6).toLocalDateTime(), //firstAddedInStore
+                rs.getString(7), //description
+                artist, //musician
+                rs.getString(9), //genre
+                new ArrayList(Arrays.asList(rs.getArray(10))), //involvedArtist
+                new ArrayList(Arrays.asList(rs.getArray(11))), //usedInstruments
+                rs.getInt(12) //productStocks
+        );
+
+        return p;
+    }
+
         //metodo usato per avvertire gli impiegati della scarsa disponibilità di certi prodotti
         public void emptyAlert(){
         //controllo il database per vedere se ci sono prodotti con meno di due rimanenze in magazzino
@@ -262,8 +306,8 @@ public class CatalogController
             System.out.println("Almost empty products: ");
             if(almostEmptyProducts.size() != 0) {
                 for (int i = 0; i < almostEmptyProducts.size(); i++) {
-                    System.out.println(almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title());
-                    noProducts = noProducts + almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title() + "\n";
+                    System.out.println(almostEmptyProducts.get(i).get_id() + " - " + almostEmptyProducts.get(i).get_title());
+                    noProducts = noProducts + almostEmptyProducts.get(i).get_id() + " - " + almostEmptyProducts.get(i).get_title() + "\n";
                 }
 
                 JOptionPane.showMessageDialog(null, "I seguenti prodotti hanno zero o una sola rimanenza in magazzino:\n\n" + noProducts);

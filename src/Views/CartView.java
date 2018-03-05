@@ -131,7 +131,7 @@ public class CartView extends Observer {
         Image image;
         for (Product p : _cart.get_cartList())
         {
-            if(!(p.get_code() == 0))
+            if(!(p.get_id() == 0))
             {
                 imageIcon = new ImageIcon(getClass().getResource(p.get_coverImage()));
                 image = imageIcon.getImage();
