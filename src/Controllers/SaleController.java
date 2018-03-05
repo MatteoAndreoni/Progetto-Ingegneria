@@ -1,3 +1,4 @@
+//metodo usato per controllare oggetti di tipo Sale
 package Controllers;
 
 import Models.Cart;
@@ -15,12 +16,12 @@ public class SaleController {
     private Sale _sale;
 
     public SaleController(Sale s){
-
         _sale=s;
-
     }
 
-
+    //metodo usato per comprare un carrello (oggetto di tipo Cart)
+    //il metodo inserisce le informazioni mancanti, come data, ip, tipo di pagamento e consegna
+    //nella riga della tabella Sale relativa al carrello dell'utente
     public void buyCart(){
 
         Cart c = _sale.get_cart();
@@ -32,7 +33,7 @@ public class SaleController {
 
             LocalDateTime localDate = _sale.get_saleDate();
 
-            String query = "SELECT products FROM sale WHERE username = ? AND saledatetime IS null";
+            String query = "SELECT products FROM sale WHERE username = ? AND saledatetime IS NULL";
             PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setString(1, cartUser);
             ResultSet rs = stmt.executeQuery();
@@ -47,28 +48,28 @@ public class SaleController {
                 System.out.print(b[i] + ", ");
             }
 
-            Integer prodottiComprati[] = new Integer[b.length-1];
+            Integer boughtProducts[] = new Integer[b.length-1];
 
 
             for(int i=1 ; i<b.length ; i++){
-                prodottiComprati[i-1] = b[i];
+                boughtProducts[i-1] = b[i];
             }
 
-            selectionSort(prodottiComprati);
+            selectionSort(boughtProducts);
 
 
 
-            for(int i=0 ; i<prodottiComprati.length ; i++) {
+            for(int i=0 ; i<boughtProducts.length ; i++) {
                 query = "UPDATE products SET productstocks = productstocks - 1 WHERE id = ?;";
                 stmt = conn.prepareStatement(query);
-                stmt.setObject(1, prodottiComprati[i]);
+                stmt.setObject(1, boughtProducts[i]);
 
                 stmt.executeUpdate();
             }
 
             System.out.println("Prodotti comprati: ");
-            for(int i=0 ; i<prodottiComprati.length ; i++){
-                System.out.print(prodottiComprati[i] + ", ");
+            for(int i=0 ; i<boughtProducts.length ; i++){
+                System.out.print(boughtProducts[i] + ", ");
             }
             System.out.println("");
 
@@ -99,7 +100,7 @@ public class SaleController {
                 }
             }
 
-            String query1 = "UPDATE sale SET saledatetime = ? , price = ? , ip = ? , paymenttype = ? , deliverytype = ? where sale.username ILIKE ? AND saledatetime is null;;";
+            String query1 = "UPDATE sale SET saledatetime = ? , price = ? , ip = ? , paymenttype = ? , deliverytype = ? WHERE sale.username ILIKE ? AND saledatetime IS NULL;";
             stmt = conn.prepareStatement(query1);
             stmt.setObject(1,localDate);
             stmt.setObject(2,_sale.get_salePrice());
@@ -112,16 +113,9 @@ public class SaleController {
 
             CartController.newSale(_sale.get_cart().get_user().get_username());
 
-
-
-            //CartController.newSale(cartUser);
-
         }catch (SQLException e){
             e.printStackTrace();
         }
-
-
-
     }
 
 
@@ -148,8 +142,6 @@ public class SaleController {
             }
         }
     }
-
-
 }
 
 

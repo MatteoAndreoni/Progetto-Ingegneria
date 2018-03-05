@@ -1,3 +1,4 @@
+//classe che controlla gli oggetti Catalog
 package Controllers;
 
 import Models.Catalog;
@@ -29,6 +30,8 @@ public class CatalogController
         }
     }
 
+    //metodo usato per settare una query che restituisce tutti i prodotti in join con i musicisti
+    //la query verrà poi passata al metodo successivo
     public void setProductList() throws SQLException
     {
         String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id ORDER BY p.id";
@@ -36,9 +39,9 @@ public class CatalogController
         setProductList(pst);
     }
 
+    //metodo che setta un oggetto Catalog in base al tipo di query che riceve
     public void setProductList(PreparedStatement pst) throws SQLException
     {
-
         ResultSet rs = pst.executeQuery() ;
         _catalog.clear();
 
@@ -74,6 +77,7 @@ public class CatalogController
         }
     }
 
+    //metodo che setta una query di ricerca dei prodotti per genere
     public void getProductByGenre(String genre) throws SQLException
     {
             String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id WHERE p.genre ILIKE ? ORDER BY p.id;";
@@ -82,6 +86,7 @@ public class CatalogController
             setProductList(pst);
     }
 
+    //metodo che setta una query di ricerca dei prodotti per prezzo minore al prezzo ricevuto come input
     public void getProductByPrice(String price) throws SQLException
     {
             String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id WHERE p.price <= ? ORDER BY p.id;";
@@ -90,6 +95,7 @@ public class CatalogController
             setProductList(pst);
     }
 
+    //metodo che setta una query di ricerca dei prodotti per titolo
     public void getProductByTitle(String title) throws SQLException
     {
             String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id WHERE p.title ILIKE ? ORDER BY p.id;";
@@ -99,6 +105,7 @@ public class CatalogController
 
     }
 
+    //metodo che setta una query di ricerca dei prodotti per nome dell'artista
     public void getProductByArtist(String name) throws SQLException
     {
             String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id WHERE m.name ILIKE ? OR array_to_string(involvedartists, ?) ILIKE ? ORDER BY p.id;";
@@ -110,16 +117,18 @@ public class CatalogController
 
     }
 
+    //metodo che aggiunge un prodotto con tutte le sue informazioni al database
+    //percorso della copertina e descrizione del prodotto sono opzionali
     public static void addProduct(String titolo, String artista, String genere, String prezzo, String pezzi, String percorsoCopertina, String descrizione ){
 
         LocalDateTime t = LocalDateTime.now();
         LocalDate localDate = LocalDate.now();
         String s = "";
-        ArrayList<String> l= new ArrayList<String>(Arrays.asList(s));
+        ArrayList<String> l= new ArrayList<>(Arrays.asList(s));
         String string[] = new String[]{};
         Musician m;
         m= new Musician(artista,genere, localDate, l);
-        ArrayList<Musician> mm = new ArrayList<Musician>(Arrays.asList(m));
+        ArrayList<Musician> mm = new ArrayList<>(Arrays.asList(m));
 
         String q = "INSERT INTO products (title, coverimage,price,firstadded,description, artist,genre,productstocks) VALUES (?,?,?,?,?,?,?,?)";
         String b = "INSERT INTO musician (name,genre,birthdate,instruments) VALUES (?,?,?,?)";
@@ -175,6 +184,7 @@ public class CatalogController
         }
     }
 
+    //metodo che serve per modificare la quantità di un prodotto presente nel magazzino
     public static void modifyProduct(int id, int pezzi) {
         try {
             String query = "SELECT * FROM products WHERE id = ?";
@@ -201,7 +211,7 @@ public class CatalogController
         }
     }
 
-
+    //metodo che serve per eliminare un prodotto dal database
     public static void deleteProduct(int id){
 
         try {
@@ -231,7 +241,7 @@ public class CatalogController
         }
     }
 
-
+        //metodo usato per avvertire gli impiegati della scarsa disponibilità di certi prodotti
         public void emptyAlert(){
         //controllo il database per vedere se ci sono prodotti con meno di due rimanenze in magazzino
         String query = "SELECT * FROM products WHERE productstocks < 2;";
@@ -247,19 +257,17 @@ public class CatalogController
                 p.set_title(rs.getString("title"));
                 almostEmptyProducts.add(p);
             }
-            String prodottiFiniti = "";
+            String noProducts = "";
 
             System.out.println("Almost empty products: ");
             if(almostEmptyProducts.size() != 0) {
                 for (int i = 0; i < almostEmptyProducts.size(); i++) {
                     System.out.println(almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title());
-                    prodottiFiniti = prodottiFiniti + almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title() + "\n";
+                    noProducts = noProducts + almostEmptyProducts.get(i).get_code() + " - " + almostEmptyProducts.get(i).get_title() + "\n";
                 }
 
-                JOptionPane.showMessageDialog(null, "I seguenti prodotti hanno zero o una sola rimanenza in magazzino:\n\n" + prodottiFiniti);
+                JOptionPane.showMessageDialog(null, "I seguenti prodotti hanno zero o una sola rimanenza in magazzino:\n\n" + noProducts);
             }
-
-
 
         }
         catch(SQLException e){

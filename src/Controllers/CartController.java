@@ -1,3 +1,4 @@
+//classe che controlla gli oggetti Cart
 package Controllers;
 
 import Models.Cart;
@@ -6,14 +7,9 @@ import Models.Product;
 import SupportClasses.DBConnSingleton;
 
 import java.sql.*;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Calendar;
-import java.util.List;
 
 public class CartController {
 
@@ -29,6 +25,7 @@ public class CartController {
         _cart.notifyAllObservers();
     }
 
+    //metodo per aggiungere un carrello vuoto al database (sotto forma di sale)
     public static void newSale(String user){
 
         try {
@@ -44,10 +41,11 @@ public class CartController {
 
     }
 
+    //metodo che serve a controllare se è presente il carrello per un dato utente
     public boolean isCartPresent(String user){
         try {
             Connection conn = DBConnSingleton.getConn();
-            String query = "select * from sale where sale.username ILIKE ? AND saledatetime is null;";
+            String query = "SELECT * FROM sale WHERE sale.username ILIKE ? AND saledatetime IS NULL;";
             PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setString(1, user);
             ResultSet rs = stmt.executeQuery();
@@ -64,6 +62,7 @@ public class CartController {
         return false;
     }
 
+    //metodo che inizializza un carrello
     public void initCart()
     {
         try
@@ -77,12 +76,14 @@ public class CartController {
         }
     }
 
+    //metodo che serve per svuotare un carrello
     public void clearCart()
     {
         _cart.clear();
         _cart.set_totalPrice(0);
     }
 
+    //metodo che serve a settare un oggetto di tipo carrello avendo un carrello presente nel database per quel dato utente
     public void setCart() throws SQLException{
 
         String cartUser = _cart.get_user().get_username();
@@ -91,7 +92,7 @@ public class CartController {
             newSale(cartUser);
 
         Connection conn = DBConnSingleton.getConn();
-        String query = "select s.products from sale as s where s.username ILIKE ?  AND s.saledatetime is null;";
+        String query = "SELECT s.products FROM sale AS s WHERE s.username ILIKE ?  AND s.saledatetime IS NULL;";
         PreparedStatement stmt = conn.prepareStatement(query);
         stmt.setString( 1,cartUser);
         ResultSet rs = stmt.executeQuery();
@@ -101,11 +102,9 @@ public class CartController {
 
         Product p;
 
-
-            for(int i=0;i<b.length;i++)
-            {
-
-                query = "select * from products join musician on products.artist = musician.id where products.id = ? ";
+        for(int i=0;i<b.length;i++)
+        {
+                query = "SELECT * FROM products JOIN musician ON products.artist = musician.id WHERE products.id = ? ";
                 stmt = conn.prepareStatement(query);
                 stmt.setInt( 1,b[i]);
                 rs = stmt.executeQuery();
@@ -139,18 +138,17 @@ public class CartController {
                     p.set_artist(m);
                     _cart.addToCart(p);
                 }
-            }
+        }
     }
 
-
-
+    //metodo che aggiunge un certo prodotto in una data quantità al carrello nel database e all'oggetto Cart
     public void addToCart(Product p, int quantity){
 
         String cartUser = _cart.get_user().get_username();
 
         try {
                 Connection conn = DBConnSingleton.getConn();
-                String query = "select products from sale where sale.username ILIKE ?  AND saledatetime is null;";
+                String query = "SELECT products FROM sale WHERE sale.username ILIKE ?  AND saledatetime IS NULL;";
                 PreparedStatement stmt = conn.prepareStatement(query);
                 stmt.setString(1,cartUser);
                 ResultSet rs = stmt.executeQuery();
@@ -169,7 +167,7 @@ public class CartController {
                 for(int j=b.length ; j<b.length+quantity ; j++)
                     c[j]=p.get_code();
 
-                query = "UPDATE sale SET products = '"+conn.createArrayOf(a.getBaseTypeName(),c)+"' where sale.username ILIKE ?  AND saledatetime is null;";
+                query = "UPDATE sale SET products = '"+conn.createArrayOf(a.getBaseTypeName(),c)+"' WHERE sale.username ILIKE ?  AND saledatetime IS NULL;";
                 stmt = conn.prepareStatement(query);
                 stmt.setString(1,cartUser);
                 stmt.executeUpdate();
@@ -183,6 +181,7 @@ public class CartController {
 
     }
 
+    //metodo che rimuove un prodotto dal carrello nel database e dall'oggetto Cart
     public void removeFromCart(int position){
 
         Product p = _cart.get_cartList().get(position);
@@ -190,13 +189,12 @@ public class CartController {
 
         try {
             Connection conn = DBConnSingleton.getConn();
-            String query = "select products from sale where sale.username ILIKE ? AND saledatetime is null;";
+            String query = "SELECT products FROM sale WHERE sale.username ILIKE ? AND saledatetime IS NULL;";
             PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setString(1,cartUser);
             ResultSet rs = stmt.executeQuery();
 
             rs.next();
-
 
             Array a = rs.getArray(1);
             Integer b[]= (Integer[])a.getArray();
@@ -221,8 +219,6 @@ public class CartController {
                 }
             }
 
-
-
             System.out.print("Valori array b: ");
             for(int i=0 ; i<b.length ; i++){
                 System.out.print(b[i] + ", ");
@@ -235,7 +231,7 @@ public class CartController {
             }
             System.out.println("");
 
-            query = "UPDATE sale SET products = '"+conn.createArrayOf(a.getBaseTypeName(),c)+"' where sale.username ILIKE ? AND saledatetime is null;";
+            query = "UPDATE sale SET products = '"+conn.createArrayOf(a.getBaseTypeName(),c)+"' WHERE sale.username ILIKE ? AND saledatetime IS NULL;";
             stmt = conn.prepareStatement(query);
             stmt.setString(1,cartUser);
             stmt.executeUpdate();
@@ -245,9 +241,5 @@ public class CartController {
         }catch (SQLException e){
             e.printStackTrace();
         }
-
     }
-
-
-
 }
