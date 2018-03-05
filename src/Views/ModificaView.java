@@ -6,9 +6,8 @@ import javax.swing.*;
 import java.awt.event.WindowEvent;
 
 public class ModificaView extends JFrame{
-    private JTextField nome;
+    private JTextField id;
     private JTextField pezzi;
-    private JTextField prezzo;
     private JButton modificaButton;
     private JButton annullaButton;
     private JPanel modifyPanel;
@@ -38,7 +37,7 @@ public class ModificaView extends JFrame{
 
         modificaButton.addActionListener(e -> {
             try {
-                CatalogController.modifyProduct(nome.getText(), prezzo.getText(), pezzi.getText());
+                CatalogController.modifyProduct(Integer.parseInt(id.getText()), Integer.parseInt(pezzi.getText()));
                 f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
             }
             catch(java.lang.NumberFormatException e1){

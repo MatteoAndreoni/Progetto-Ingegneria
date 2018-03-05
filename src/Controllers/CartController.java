@@ -203,32 +203,6 @@ public class CartController {
             Integer c[] = new Integer[b.length-1];
 
             int ct=0;
-            //boolean removed=false;
-
-            /*for(Integer i : b)
-            {
-                if(p.get_code() != b[i] || removed)
-                {
-                    c.add(i);
-                }
-                else
-                {
-                    removed = true;
-                }
-            }*/
-
-            /*for(int i=0;i<b.length-1;i++)
-            {
-                if(p.get_code()!=b[i])
-                {
-                    c[i] = b[i];
-                    ct++;
-                }
-                else
-                {
-                    position=i;
-                }
-            }*/
 
             b[position+1] = 0;
             ct = 0;

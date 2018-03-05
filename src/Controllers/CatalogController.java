@@ -31,7 +31,7 @@ public class CatalogController
 
     public void setProductList() throws SQLException
     {
-        String q = "select * from products as p join musician as m on p.artist = m.id;";
+        String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id ORDER BY p.id";
         PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(q);
         setProductList(pst);
     }
@@ -76,7 +76,7 @@ public class CatalogController
 
     public void getProductByGenre(String genre) throws SQLException
     {
-            String q = "select * from products as p join musician as m on p.artist = m.id where p.genre ilike ?;";
+            String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id WHERE p.genre ILIKE ? ORDER BY p.id;";
             PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(q);
             pst.setString(1, "%" + genre + "%");
             setProductList(pst);
@@ -84,7 +84,7 @@ public class CatalogController
 
     public void getProductByPrice(String price) throws SQLException
     {
-            String q = "select * from products as p join musician as m on p.artist = m.id where p.price <= ?;";
+            String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id WHERE p.price <= ? ORDER BY p.id;";
             PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(q);
             pst.setBigDecimal(1, new BigDecimal(price));
             setProductList(pst);
@@ -92,7 +92,7 @@ public class CatalogController
 
     public void getProductByTitle(String title) throws SQLException
     {
-            String q = "select * from products as p join musician as m on p.artist = m.id where p.title ilike ?;";
+            String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id WHERE p.title ILIKE ? ORDER BY p.id;";
             PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(q);
             pst.setString(1, "%" + title + "%");
             setProductList(pst);
@@ -101,7 +101,7 @@ public class CatalogController
 
     public void getProductByArtist(String name) throws SQLException
     {
-            String q = "select * from products as p join musician as m on p.artist = m.id where m.name ilike ? or array_to_string(involvedartists, ?) ilike ?";
+            String q = "SELECT * FROM products AS p JOIN musician AS m ON p.artist = m.id WHERE m.name ILIKE ? OR array_to_string(involvedartists, ?) ILIKE ? ORDER BY p.id;";
             PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(q);
             pst.setString(1,"%" + name + "%");
             pst.setString(2,",");
@@ -121,8 +121,8 @@ public class CatalogController
         m= new Musician(artista,genere, localDate, l);
         ArrayList<Musician> mm = new ArrayList<Musician>(Arrays.asList(m));
 
-        String q = "Insert into products (title, coverimage,price,firstadded,description, artist,genre,productstocks) values (?,?,?,?,?,?,?,?)";
-        String b = "Insert into musician (name,genre,birthdate,instruments) values (?,?,?,?)";
+        String q = "INSERT INTO products (title, coverimage,price,firstadded,description, artist,genre,productstocks) VALUES (?,?,?,?,?,?,?,?)";
+        String b = "INSERT INTO musician (name,genre,birthdate,instruments) VALUES (?,?,?,?)";
         try{
             try {
                 PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(b);
@@ -175,23 +175,23 @@ public class CatalogController
         }
     }
 
-    public static void modifyProduct(String nome, String prezzo, String pezzi) {
+    public static void modifyProduct(int id, int pezzi) {
         try {
-            String query = "SELECT * from products WHERE title ilike ?";
+            String query = "SELECT * FROM products WHERE id = ?";
             PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(query);
-            pst.setString(1, nome);
+            pst.setInt(1, id);
             ResultSet rs = pst.executeQuery();
 
             if (!rs.isBeforeFirst()) {
                 JOptionPane.showMessageDialog(null, "Prodotto non presente");
             } else {
-                String s = "update products set price = ?, productstocks = ? where title ilike ?";
+                String s = "UPDATE products SET productstocks = ? WHERE id = ?";
                 try {
                     pst = DBConnSingleton.getConn().prepareStatement(s);
-                    pst.setFloat(1, Float.valueOf(prezzo.toString()));
-                    pst.setInt(2, Integer.valueOf(pezzi.toString()));
-                    pst.setString(3, nome);
+                    pst.setInt(1, pezzi);
+                    pst.setInt(2, id);
                     pst.executeUpdate();
+                    JOptionPane.showMessageDialog(null, "Modifica effettuata con successo");
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
@@ -202,22 +202,22 @@ public class CatalogController
     }
 
 
-    public static void deleteProduct(String nome){
+    public static void deleteProduct(int id){
 
         try {
-            String query = "SELECT * from products WHERE title ilike ?";
+            String query = "SELECT * FROM products WHERE id = ?";
             PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(query);
-            pst.setString(1, nome);
+            pst.setInt(1, id);
             ResultSet rs = pst.executeQuery();
 
             if(!rs.isBeforeFirst()){
                 JOptionPane.showMessageDialog(null, "Prodotto non presente");
             }
             else{
-                String s ="delete from products where title ilike ?";
+                String s ="DELETE FROM products WHERE id = ?";
                 try {
                     pst = DBConnSingleton.getConn().prepareStatement(s);
-                    pst.setString(1,nome);
+                    pst.setInt(1, id);
                     pst.executeUpdate();
                 }
                 catch (SQLException e)
@@ -242,12 +242,10 @@ public class CatalogController
             ArrayList<Product> almostEmptyProducts = new ArrayList();
 
             while(rs.next()){
-                //
                 Product p = new Product(0, "");
                 p.set_code(rs.getInt("id"));
                 p.set_title(rs.getString("title"));
                 almostEmptyProducts.add(p);
-                //almostEmptyProducts.add(rs.getObject("id"));
             }
             String prodottiFiniti = "";
 

@@ -162,7 +162,6 @@ public class MainView extends Observer{
 
         cartButton.addActionListener(e -> onCartButtonClicked());
 
-        //TODO gestire evento per login
 
         loginButton.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
@@ -170,7 +169,6 @@ public class MainView extends Observer{
                 if(_user!=null) {
                     loginButton.setEnabled(false);
                     loginButton.setVisible(false);
-                    //registerButton.setText("Logout");
                     registerButton.setIcon(new ImageIcon(getClass().getResource("resources/button_logout.png")));
                     usernameText.setEnabled(false);
                     usernameText.setVisible(false);
@@ -185,9 +183,7 @@ public class MainView extends Observer{
 
             }
 
-            //loginButton.setEnabled(true);
-        }
-        );
+        });
 
 
         registerButton.addActionListener(new ActionListener(){
@@ -219,7 +215,6 @@ public class MainView extends Observer{
         {
             if(_user.get_isEmployee())
             {
-                //TODO vista della schermata gestione employee
                 new ModifyView();
             }
             else

@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.awt.event.WindowEvent;
 
 public class EliminaView  extends JFrame{
-    private JTextField nome;
+    private JTextField id;
     private JButton eliminaButton;
     private JButton annullaButton;
     private JPanel deletePanel;
@@ -16,7 +16,7 @@ public class EliminaView  extends JFrame{
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.pack();
         this.setVisible(true);
-        this.setSize(500, 200);
+        this.setSize(550, 200);
         setupView(this);
     }
 
@@ -35,12 +35,18 @@ public class EliminaView  extends JFrame{
 
 
         eliminaButton.addActionListener(e -> {
-            if(!nome.getText().equals("")) {
-                CatalogController.deleteProduct(nome.getText());
-                f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+            if(!id.getText().equals("")) {
+                try {
+                    CatalogController.deleteProduct(Integer.parseInt(id.getText()));
+                    f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+                }
+                catch(NumberFormatException e1){
+                    JOptionPane.showMessageDialog(null, "Inserire un id valido");
+                }
+
             }
             else
-                JOptionPane.showMessageDialog(null, "Immettere un titolo");
+                JOptionPane.showMessageDialog(null, "Immettere un id");
         });
     }
 
