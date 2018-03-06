@@ -37,7 +37,7 @@ public class ModificaView extends JFrame{
 
         modificaButton.addActionListener(e -> {
             try {
-                CatalogController.modifyProduct(Integer.parseInt(id.getText()), Integer.parseInt(pezzi.getText()));
+                CatalogController.updateProduct(Integer.parseInt(id.getText()), Integer.parseInt(pezzi.getText()));
                 f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
             }
             catch(java.lang.NumberFormatException e1){

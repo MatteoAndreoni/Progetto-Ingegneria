@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="modifyPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="373" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -13,45 +13,39 @@
           <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="MODIFICA MAGAZZINO"/>
+          <text value="GESTIONE MAGAZZINO"/>
         </properties>
       </component>
-      <component id="2a0fd" class="javax.swing.JRadioButton" binding="aggiungiProdottoRadioButton" default-binding="true">
+      <component id="37272" class="javax.swing.JButton" binding="addProductButton">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Aggiungi Prodotto"/>
-        </properties>
-      </component>
-      <component id="b344f" class="javax.swing.JRadioButton" binding="modificaProdottoRadioButton" default-binding="true">
-        <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Modifica Prodotto"/>
-        </properties>
-      </component>
-      <component id="ac91" class="javax.swing.JRadioButton" binding="eliminaProdottoRadioButton" default-binding="true">
-        <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Elimina Prodotto"/>
-        </properties>
-      </component>
-      <component id="eb686" class="javax.swing.JButton" binding="okButton" default-binding="true">
-        <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="Views/resources/button_seleziona.png"/>
+          <icon value="Views/resources/button_aggiungi-prodotto.png"/>
           <text value=""/>
         </properties>
       </component>
-      <component id="e2aac" class="javax.swing.JButton" binding="annullaButton" default-binding="true">
+      <component id="7a26b" class="javax.swing.JButton" binding="updateProductButton">
         <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Views/resources/button_aggiorna-quantita-prodotto.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8bfb4" class="javax.swing.JButton" binding="deleteProductButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Views/resources/button_elimina-prodotto.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e2aac" class="javax.swing.JButton" binding="quitButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <icon value="Views/resources/button_annulla.png"/>

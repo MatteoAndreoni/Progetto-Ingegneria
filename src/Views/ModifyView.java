@@ -6,53 +6,54 @@ import java.awt.event.WindowEvent;
 public class ModifyView extends JFrame{
 
     private JPanel modifyPanel;
-    private JButton okButton;
-    private JRadioButton aggiungiProdottoRadioButton;
-    private JRadioButton modificaProdottoRadioButton;
-    private JRadioButton eliminaProdottoRadioButton;
-    private JButton annullaButton;
+    private JButton addProductButton;
+    private JButton updateProductButton;
+    private JButton deleteProductButton;
+    private JButton quitButton;
 
     public ModifyView(){
         this.setContentPane(this.modifyPanel);
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.pack();
         this.setVisible(true);
-        this.setSize(500, 400 );
+        this.setSize(550, 400 );
         setupView(this);
     }
     public void setupView(JFrame f){
-        annullaButton.setBorderPainted(false);
-        annullaButton.setFocusPainted(false);
-        annullaButton.setContentAreaFilled(false);
-        annullaButton.setOpaque(false);
+        //modifiche grafiche per i bottoni
+        quitButton.setBorderPainted(false);
+        quitButton.setFocusPainted(false);
+        quitButton.setContentAreaFilled(false);
+        quitButton.setOpaque(false);
 
-        okButton.setBorderPainted(false);
-        okButton.setFocusPainted(false);
-        okButton.setContentAreaFilled(false);
-        okButton.setOpaque(false);
+        addProductButton.setBorderPainted(false);
+        addProductButton.setFocusPainted(false);
+        addProductButton.setContentAreaFilled(false);
+        addProductButton.setOpaque(false);
 
-        ButtonGroup group = new ButtonGroup();
-        group.add(aggiungiProdottoRadioButton);
-        group.add(modificaProdottoRadioButton);
-        group.add(eliminaProdottoRadioButton);
+        updateProductButton.setBorderPainted(false);
+        updateProductButton.setFocusPainted(false);
+        updateProductButton.setContentAreaFilled(false);
+        updateProductButton.setOpaque(false);
 
-        aggiungiProdottoRadioButton.setSelected(true);
+        deleteProductButton.setBorderPainted(false);
+        deleteProductButton.setFocusPainted(false);
+        deleteProductButton.setContentAreaFilled(false);
+        deleteProductButton.setOpaque(false);
 
-        annullaButton.addActionListener(e -> f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING)));
+        //gestione eventi bottoni
+        quitButton.addActionListener(e -> f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING)));
 
-        okButton.addActionListener(e -> {
-            if(aggiungiProdottoRadioButton.isSelected()){
-                new AggiungiView();
-                f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
-            }
-            else if(modificaProdottoRadioButton.isSelected()){
-                new ModificaView();
-                f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
-            }
-            else if(eliminaProdottoRadioButton.isSelected()){
-                new EliminaView();
-                f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
-            }
+        addProductButton.addActionListener(e -> {
+            new AggiungiView();
+        });
+
+        updateProductButton.addActionListener(e -> {
+            new ModificaView();
+        });
+
+        deleteProductButton.addActionListener(e -> {
+            new EliminaView();
         });
     }
 }

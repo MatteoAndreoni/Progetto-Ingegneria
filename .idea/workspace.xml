@@ -7,14 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de1472b-4462-4c20-80cd-73a28297fd65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Controllers/CatalogController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgettoIng/Controllers/SaleController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/CartController.java" afterPath="$PROJECT_DIR$/src/Controllers/CartController.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/CatalogController.java" afterPath="$PROJECT_DIR$/src/Controllers/CatalogController.java" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Cart.java" afterPath="$PROJECT_DIR$/src/Models/Cart.java" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Catalog.java" afterPath="$PROJECT_DIR$/src/Models/Catalog.java" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Product.java" afterPath="$PROJECT_DIR$/src/Models/Product.java" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/SaleController.java" afterPath="$PROJECT_DIR$/src/Controllers/SaleController.java" />
       <change beforePath="$PROJECT_DIR$/src/Views/CartView.java" afterPath="$PROJECT_DIR$/src/Views/CartView.java" />
+      <change beforePath="$PROJECT_DIR$/src/Views/ModificaView.form" afterPath="$PROJECT_DIR$/src/Views/ModificaView.form" />
+      <change beforePath="$PROJECT_DIR$/src/Views/ModificaView.java" afterPath="$PROJECT_DIR$/src/Views/ModificaView.java" />
+      <change beforePath="$PROJECT_DIR$/src/Views/ModifyView.form" afterPath="$PROJECT_DIR$/src/Views/ModifyView.form" />
+      <change beforePath="$PROJECT_DIR$/src/Views/ModifyView.java" afterPath="$PROJECT_DIR$/src/Views/ModifyView.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +26,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CatalogController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CatalogController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3335">
-              <caret line="274" column="10" lean-forward="true" selection-start-line="274" selection-start-column="10" selection-end-line="274" selection-end-column="10" />
+            <state relative-caret-position="-1345">
+              <caret line="203" column="29" lean-forward="false" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModificaView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModifyView.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModificaView.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModifyView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -39,8 +73,8 @@
       <file leaf-file-name="CartView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/CartView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="133" column="25" lean-forward="false" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
+            <state relative-caret-position="126">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -49,8 +83,8 @@
       <file leaf-file-name="SaleController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/SaleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1926">
-              <caret line="117" column="9" lean-forward="false" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+            <state relative-caret-position="54">
+              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding>
                 <element signature="e#370#371#0" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
@@ -62,7 +96,7 @@
       <file leaf-file-name="musicstore.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/musicstore.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
+            <state relative-caret-position="657">
               <caret line="112" column="102" lean-forward="false" selection-start-line="112" selection-start-column="102" selection-end-line="112" selection-end-column="102" />
               <folding />
             </state>
@@ -72,33 +106,11 @@
       <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/CartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+            <state relative-caret-position="2376">
+              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Models/Cart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="66" column="93" lean-forward="false" selection-start-line="66" selection-start-column="93" selection-end-line="66" selection-end-column="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Catalog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Models/Catalog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -106,8 +118,8 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1899">
-              <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+            <state relative-caret-position="2196">
+              <caret line="152" column="1" lean-forward="false" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -152,8 +164,6 @@
         <option value="$PROJECT_DIR$/src/Views/MainView.form" />
         <option value="$PROJECT_DIR$/src/Views/CartView.form" />
         <option value="$PROJECT_DIR$/src/Views/BuyView.form" />
-        <option value="$PROJECT_DIR$/src/Views/ModifyView.form" />
-        <option value="$PROJECT_DIR$/src/Views/ModifyView.java" />
         <option value="$PROJECT_DIR$/src/Views/RegistrationView.form" />
         <option value="$PROJECT_DIR$/src/Views/RegistrationView.java" />
         <option value="$PROJECT_DIR$/src/Views/AggiungiView.java" />
@@ -168,15 +178,17 @@
         <option value="$PROJECT_DIR$/src/Views/MainView.java" />
         <option value="$PROJECT_DIR$/src/Views/EliminaView.form" />
         <option value="$PROJECT_DIR$/src/Views/EliminaView.java" />
-        <option value="$PROJECT_DIR$/src/Views/ModificaView.java" />
-        <option value="$PROJECT_DIR$/src/Views/ModificaView.form" />
-        <option value="$PROJECT_DIR$/src/Controllers/SaleController.java" />
         <option value="$PROJECT_DIR$/src/Models/Cart.java" />
         <option value="$PROJECT_DIR$/src/Models/Catalog.java" />
         <option value="$PROJECT_DIR$/src/Models/Product.java" />
-        <option value="$PROJECT_DIR$/src/Views/CartView.java" />
         <option value="$PROJECT_DIR$/src/Controllers/CartController.java" />
         <option value="$PROJECT_DIR$/src/Controllers/CatalogController.java" />
+        <option value="$PROJECT_DIR$/src/Views/ModificaView.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/SaleController.java" />
+        <option value="$PROJECT_DIR$/src/Views/CartView.java" />
+        <option value="$PROJECT_DIR$/src/Views/ModificaView.form" />
+        <option value="$PROJECT_DIR$/src/Views/ModifyView.form" />
+        <option value="$PROJECT_DIR$/src/Views/ModifyView.java" />
       </list>
     </option>
   </component>
@@ -203,8 +215,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,10 +256,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MusicStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Progetto-Ingegneria" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="ModificaView" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="MusicStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Progetto-Ingegneria" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="ModifyView" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,18 +513,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -631,48 +645,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="39" column="113" lean-forward="false" selection-start-line="39" selection-start-column="113" selection-end-line="39" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/MainView.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/SaleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1926">
-          <caret line="117" column="9" lean-forward="false" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/musicstore.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="112" column="102" lean-forward="false" selection-start-line="112" selection-start-column="102" selection-end-line="112" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="990">
           <caret line="66" column="93" lean-forward="false" selection-start-line="66" selection-start-column="93" selection-end-line="66" selection-end-column="93" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -695,24 +678,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1899">
-          <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/CartView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="133" column="25" lean-forward="false" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
+        <state relative-caret-position="2196">
+          <caret line="152" column="1" lean-forward="false" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        <state relative-caret-position="2376">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -721,8 +696,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3335">
-          <caret line="274" column="10" lean-forward="true" selection-start-line="274" selection-start-column="10" selection-end-line="274" selection-end-column="10" />
+        <state relative-caret-position="-1345">
+          <caret line="203" column="29" lean-forward="false" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/musicstore.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="112" column="102" lean-forward="false" selection-start-line="112" selection-start-column="102" selection-end-line="112" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/SaleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/CartView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/ModificaView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/ModifyView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding />
         </state>
       </provider>

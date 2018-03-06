@@ -99,10 +99,8 @@ public class CartView extends Observer {
             else if (row == -1) {
                 JOptionPane.showMessageDialog(null, "Selezionare un oggetto da rimuovere");
             } else {
-                //int pos = _cart.get_cartList().size();
                 _cartController.removeFromCart(row);
                 row = -1;
-                //System.out.println();
             }
         });
 

@@ -45,7 +45,7 @@ public class CatalogController
         ResultSet rs = pst.executeQuery() ;
         _catalog.clear();
 
-        Product p;
+        //Product p;
         while(rs.next())
         {
             _catalog.add(getProductFromQuery(rs));
@@ -142,18 +142,18 @@ public class CatalogController
         String s = "";
         ArrayList<String> l= new ArrayList<>(Arrays.asList(s));
         String string[] = new String[]{};
-        Musician m;
-        m= new Musician(artista,genere, localDate, l);
-        ArrayList<Musician> mm = new ArrayList<>(Arrays.asList(m));
+        Musician mainArtist;
+        mainArtist = new Musician(artista,genere, localDate, l);
+        ArrayList<Musician> involvedArtists = new ArrayList<>(Arrays.asList(mainArtist));
 
-        String q = "INSERT INTO products (title, coverimage,price,firstadded,description, artist,genre,productstocks) VALUES (?,?,?,?,?,?,?,?)";
-        String b = "INSERT INTO musician (name,genre,birthdate,instruments) VALUES (?,?,?,?)";
+        String productQuery = "INSERT INTO products (title, coverimage,price,firstadded,description, artist,genre,productstocks) VALUES (?,?,?,?,?,?,?,?)";
+        String musicianQuery = "INSERT INTO musician (name,genre,birthdate,instruments) VALUES (?,?,?,?)";
         try{
             try {
-                PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(b);
+                PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(musicianQuery);
                 pst.setString(1, artista);
                 pst.setString(2, genere);
-                pst.setObject(3,localDate);
+                pst.setObject(3, localDate);
                 pst.setObject(4, DBConnSingleton.getConn().createArrayOf("VARCHAR",string));
                 pst.executeUpdate();
             }finally {
@@ -168,7 +168,7 @@ public class CatalogController
                         cover = "resources/gear.png";
                     else
                         cover = percorsoCopertina;
-                    PreparedStatement pst3 = DBConnSingleton.getConn().prepareStatement(q);
+                    PreparedStatement pst3 = DBConnSingleton.getConn().prepareStatement(productQuery);
                     pst3.setString(1, titolo);
                     pst3.setString(2, cover);
                     pst3.setFloat(3, Float.valueOf(prezzo.toString()));
@@ -188,7 +188,7 @@ public class CatalogController
                         Integer id2 = rs2.getInt("id");
 
                         Product pr;
-                        pr = new Product(id2, titolo, l, "", Float.valueOf(prezzo.toString()), t, s, m, genere, mm, l, Integer.valueOf(pezzi));
+                        pr = new Product(id2, titolo, l, "", Float.valueOf(prezzo.toString()), t, s, mainArtist, genere, involvedArtists, l, Integer.valueOf(pezzi));
                     }
                     JOptionPane.showMessageDialog(null, "Inserimento prodotto avvenuto con successo");
                 }
@@ -201,7 +201,7 @@ public class CatalogController
     }
 
     //metodo che serve per modificare la quantità di un prodotto presente nel magazzino
-    public static void modifyProduct(int id, int pezzi) {
+    public static void updateProduct(int id, int stock) {
         try {
             String query = "SELECT * FROM products WHERE id = ?";
             PreparedStatement pst = DBConnSingleton.getConn().prepareStatement(query);
@@ -214,7 +214,7 @@ public class CatalogController
                 String s = "UPDATE products SET productstocks = ? WHERE id = ?";
                 try {
                     pst = DBConnSingleton.getConn().prepareStatement(s);
-                    pst.setInt(1, pezzi);
+                    pst.setInt(1, stock);
                     pst.setInt(2, id);
                     pst.executeUpdate();
                     JOptionPane.showMessageDialog(null, "Modifica effettuata con successo");
@@ -257,7 +257,7 @@ public class CatalogController
         }
     }
 
-    //metodo che estrapola un prodotto dal risultato di una query
+    //metodo che estrapola un prodotto dal risultato di una query (product+musician)
     //usato anche nel CartController
     public static Product getProductFromQuery(ResultSet rs) throws SQLException{
         String name = rs.getString(14);
