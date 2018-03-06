@@ -260,6 +260,7 @@ public class CatalogController
     //metodo che estrapola un prodotto dal risultato di una query (product+musician)
     //usato anche nel CartController
     public static Product getProductFromQuery(ResultSet rs) throws SQLException{
+        //colonne per musician
         String name = rs.getString(14);
         String genre = rs.getString(15);
         LocalDate birthDate = rs.getTimestamp(16).toLocalDateTime().toLocalDate();
@@ -268,6 +269,7 @@ public class CatalogController
         Musician artist = new Musician(name, genre, birthDate, instruments);
 
         Product p = new Product(
+                //colonne per product
                 rs.getInt(1), //id
                 rs.getString(2), //title
                 new ArrayList(Arrays.asList(rs.getArray(3))), //tracklist

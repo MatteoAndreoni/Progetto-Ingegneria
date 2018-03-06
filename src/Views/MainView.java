@@ -286,9 +286,6 @@ public class MainView extends Observer{
     {
         try {
             switch ((String) comboBox.getSelectedItem()) {
-                case "":
-                    _catalogController.setProductList();
-                    break;
                 case "Artista":
                     _catalogController.getProductByArtist(searchText.getText());
                     break;

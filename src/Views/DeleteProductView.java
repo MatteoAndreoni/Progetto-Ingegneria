@@ -5,13 +5,13 @@ import Controllers.CatalogController;
 import javax.swing.*;
 import java.awt.event.WindowEvent;
 
-public class EliminaView  extends JFrame{
+public class DeleteProductView extends JFrame{
     private JTextField id;
     private JButton eliminaButton;
     private JButton annullaButton;
     private JPanel deletePanel;
 
-    public EliminaView(){
+    public DeleteProductView(){
         this.setContentPane(this.deletePanel);
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.pack();

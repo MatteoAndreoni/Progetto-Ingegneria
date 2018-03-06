@@ -5,7 +5,7 @@ import Controllers.CatalogController;
 import javax.swing.*;
 import java.awt.event.WindowEvent;
 
-public class AggiungiView extends JFrame {
+public class AddProductView extends JFrame {
     private JPanel addPanel;
     private JTextField titolo;
     private JTextField artista;
@@ -17,7 +17,7 @@ public class AggiungiView extends JFrame {
     private JTextField perCopertina;
     private JTextField descrizione;
 
-    public AggiungiView() {
+    public AddProductView() {
         this.setContentPane(this.addPanel);
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.pack();

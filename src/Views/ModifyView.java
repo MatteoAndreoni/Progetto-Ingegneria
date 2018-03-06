@@ -45,15 +45,15 @@ public class ModifyView extends JFrame{
         quitButton.addActionListener(e -> f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING)));
 
         addProductButton.addActionListener(e -> {
-            new AggiungiView();
+            new AddProductView();
         });
 
         updateProductButton.addActionListener(e -> {
-            new ModificaView();
+            new UpdateProductView();
         });
 
         deleteProductButton.addActionListener(e -> {
-            new EliminaView();
+            new DeleteProductView();
         });
     }
 }

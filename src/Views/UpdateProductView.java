@@ -5,14 +5,14 @@ import Controllers.CatalogController;
 import javax.swing.*;
 import java.awt.event.WindowEvent;
 
-public class ModificaView extends JFrame{
+public class UpdateProductView extends JFrame{
     private JTextField id;
     private JTextField pezzi;
     private JButton modificaButton;
     private JButton annullaButton;
     private JPanel modifyPanel;
 
-    public ModificaView() {
+    public UpdateProductView() {
         this.setContentPane(this.modifyPanel);
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.pack();
