@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9de1472b-4462-4c20-80cd-73a28297fd65" name="Default" comment="" />
+    <list default="true" id="9de1472b-4462-4c20-80cd-73a28297fd65" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/CartController.java" afterPath="$PROJECT_DIR$/src/Controllers/CartController.java" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/CatalogController.java" afterPath="$PROJECT_DIR$/src/Controllers/CatalogController.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CatalogController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CatalogController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1525">
-              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="-751">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CartController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controllers/CartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1854">
-              <caret line="109" column="26" lean-forward="false" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+            <state relative-caret-position="-18">
+              <caret line="110" column="29" lean-forward="false" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +97,6 @@
         <option value="$PROJECT_DIR$/src/Models/Cart.java" />
         <option value="$PROJECT_DIR$/src/Models/Catalog.java" />
         <option value="$PROJECT_DIR$/src/Models/Product.java" />
-        <option value="$PROJECT_DIR$/src/Controllers/CartController.java" />
         <option value="$PROJECT_DIR$/src/Views/ModificaView.java" />
         <option value="$PROJECT_DIR$/src/Controllers/SaleController.java" />
         <option value="$PROJECT_DIR$/src/Views/CartView.java" />
@@ -101,9 +104,10 @@
         <option value="$PROJECT_DIR$/src/Views/ModifyView.form" />
         <option value="$PROJECT_DIR$/src/Views/UpdateView.java" />
         <option value="$PROJECT_DIR$/src/Views/ModifyView.java" />
-        <option value="$PROJECT_DIR$/src/Controllers/CatalogController.java" />
         <option value="$PROJECT_DIR$/src/Views/MainView.java" />
         <option value="$PROJECT_DIR$/src/SupportClasses/CatalogTableModel.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/CatalogController.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/CartController.java" />
       </list>
     </option>
   </component>
@@ -128,7 +132,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,9 +181,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -608,21 +612,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/CartController.java">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1854">
-          <caret line="109" column="26" lean-forward="false" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-751">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/CatalogController.java">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1525">
-          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="-18">
+          <caret line="110" column="29" lean-forward="false" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
