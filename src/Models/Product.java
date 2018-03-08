@@ -1,10 +1,7 @@
 package Models;
 
 import SupportClasses.Subject;
-import javafx.beans.Observable;
 
-import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 

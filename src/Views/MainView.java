@@ -2,7 +2,10 @@ package Views;
 
 import Controllers.CartController;
 import Controllers.CatalogController;
-import Models.*;
+import Models.Cart;
+import Models.Catalog;
+import Models.Product;
+import Models.User;
 import SupportClasses.*;
 
 import javax.swing.*;
