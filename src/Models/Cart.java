@@ -28,17 +28,22 @@ public class Cart extends Subject{
             round(_totalPrice, 2);
         }
         else {
-            _totalPrice += p.get_price();
-            _totalPrice *= 0.9;
+            _totalPrice += (p.get_price() * 0.9);
             _totalPrice = round(_totalPrice, 2);
             System.out.println("Prezzo totale: "+ _totalPrice);
         }
         notifyAllObservers();
     }
 
-    public void removeFromCart(int position)
-    {
-        _totalPrice -= _cartList.get(position).get_price();
+    public void removeFromCart(int position) {
+        if (!_user.get_isPremium()){
+            _totalPrice -= _cartList.get(position).get_price();
+            round(_totalPrice, 2);
+        }
+        else{
+            _totalPrice -= (_cartList.get(position).get_price() * 0.9);
+            _totalPrice = round(_totalPrice, 2);
+        }
         _cartList.remove(position);
         System.out.println(_cartList);
         notifyAllObservers();

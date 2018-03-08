@@ -37,7 +37,6 @@ public class BuyView extends Observer {
         this.addWindowListener(new java.awt.event.WindowAdapter() {
             @Override
             public void windowClosing(java.awt.event.WindowEvent windowEvent) {
-                // _cart.resetCart();
             }
         });
 

@@ -1,7 +1,5 @@
 package SupportClasses;
 
-import SupportClasses.Observer;
-
 import java.util.ArrayList;
 import java.util.List;
 

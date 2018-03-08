@@ -1,3 +1,6 @@
+
+--MODIFICARE RELAZIONE MUSICIAN - PRODUCTS, MODIFICARE ER
+
 DROP TABLE IF EXISTS Musician CASCADE;
 
 CREATE TABLE Musician(
@@ -14,15 +17,15 @@ CREATE TABLE Products (
 	id serial PRIMARY KEY, 
 	title VARCHAR(150), 
 	tracklist TEXT ARRAY, 
-	coverimage VARCHAR(60), 
-	price NUMERIC(5,2),
+	coverimage VARCHAR(100),
+	price NUMERIC(5, 2),
 	firstadded DATE,
 	description VARCHAR(512), 
-    artist NUMERIC,
-	genre VARCHAR(20),
+    artist INTEGER REFERENCES Musician(id) ON UPDATE CASCADE ON DELETE SET DEFAULT,
+	genre VARCHAR(50),
     involvedartists TEXT ARRAY,
 	usedinstruments TEXT ARRAY, 
-	productstocks integer
+	productstocks INTEGER
 );
 
 DROP TABLE IF EXISTS Utente CASCADE;
@@ -31,11 +34,11 @@ CREATE TABLE Utente(
 	cf CHAR(16), 
 	username VARCHAR(15) PRIMARY KEY, 
 	password VARCHAR(20) NOT NULL, 
-	name VARCHAR(20), 
-	surname VARCHAR(20), 
+	name VARCHAR(30),
+	surname VARCHAR(30),
 	address VARCHAR(100), 
-	telephone VARCHAR(15), 
-	cellphone VARCHAR(15),
+	telephone VARCHAR(11),
+	cellphone VARCHAR(11),
 	isemployee BOOLEAN,
 	ispremium BOOLEAN DEFAULT FALSE
 );
@@ -46,7 +49,7 @@ CREATE TABLE Sale(
     id SERIAL PRIMARY KEY,
     username VARCHAR(15) REFERENCES Utente(username) ON UPDATE CASCADE ON DELETE SET DEFAULT ,
 	products INTEGER ARRAY,
-	price NUMERIC, 
+	price NUMERIC,
 	saledatetime TIMESTAMP with TIME ZONE,
 	ip VARCHAR(15), 
 	paymenttype VARCHAR(20), 
